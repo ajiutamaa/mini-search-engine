@@ -85,15 +85,18 @@ sub update_index
 {
 	my (%docTokens) = %{$_[0]};
 	my ($docNumber) = $_[1];
+	
+	my @new_arr = ();
+	
 	print TEST "----------------$docNumber---------------------\n";
 	foreach $keyDoc (keys %docTokens){
 		# for each term in document, update index
 		if(not exists($index{$keyDoc})){
-			@new_arr = ();
+			my @new_arr = ();
 			$index{$keyDoc} = \@new_arr;
 			
 			@{$index{$keyDoc}}[$docNumber] = $docTokens{$keyDoc};
-			print TEST "$keyDoc => BARU => ";
+			print TEST "$keyDoc => BARU $index{$keyDoc} => ";
 			foreach $t (@{$index{$keyDoc}}){
 				if(not defined($t)){print TEST "0,";}
 				else{print TEST "$t,";}
@@ -102,12 +105,12 @@ sub update_index
 			#print TEST "@{$index{$keyDoc}}\n";
 		}
 		else {
-			print TEST "$keyDoc => SEBELUM => ";
+			print TEST "$keyDoc => SEBELUM $index{$keyDoc} => ";
 			foreach $t (@{$index{$keyDoc}}){
 				if(not defined($t)){print TEST "0,";}
 				else{print TEST "$t,";}
 			}
-			print TEST " SESUDAH => ";
+			print TEST " SESUDAH $index{$keyDoc} => ";
 			@{$index{$keyDoc}}[$docNumber] = $docTokens{$keyDoc};
 			foreach $t (@{$index{$keyDoc}}){
 				if(not defined($t)){print TEST "0,";}
