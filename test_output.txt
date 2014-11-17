@@ -1,417 +1,647 @@
-kepresidenan=>0
-kepresidenan=>1
-golkar=>0
-golkar=>1
-para=>0
-para=>1
-pangkalpinang=>0
-pangkalpinang=>1
-papua=>0
-papua=>1
-bupati=>0
-bupati=>1
-malam=>0
-malam=>1
-ingin=>0
-ingin=>1
-pun=>0
-pun=>1
-tersangka=>0
-tersangka=>1
-menjadi=>0
-menjadi=>1
-diterima=>0
-diterima=>1
-keputusan=>0
-keputusan=>1
-tidak=>0
-tidak=>1
-sudah=>0
-sudah=>1
-pemerasan=>0
-pemerasan=>1
-rinci=>0
-rinci=>1
-mengajukan=>0
-mengajukan=>1
-wonosobo=>0
-wonosobo=>1
-jawa=>0
-jawa=>1
-kejelasan=>0
-kejelasan=>1
-penangguhan=>0
-penangguhan=>1
-ke=>0
-ke=>1
-keppres=>0
-keppres=>1
-bersedia=>0
-bersedia=>1
-dari=>0
-dari=>1
-pembangunan=>0
-pembangunan=>1
-minta=>0
-minta=>1
-pada=>0
-pada=>1
-kota=>0
-kota=>1
-saja=>0
-saja=>1
-wakil=>0
-wakil=>1
-hal=>0
-hal=>1
-ri=>0
-ri=>1
-terjerat=>0
-terjerat=>1
-tegas=>0
-tegas=>1
-belitung=>0
-belitung=>1
-negara=>0
-negara=>1
-pelantikan=>0
-pelantikan=>1
-ada=>0
-ada=>1
-memimpin=>0
-memimpin=>1
-kementerian=>0
-kementerian=>1
-itu=>0
-itu=>1
-catatan=>0
-catatan=>1
-kasus=>0
-kasus=>1
-disampaikan=>0
-disampaikan=>1
-sosial=>0
-sosial=>1
-namun=>0
-namun=>1
-melilit=>0
-melilit=>1
-agar=>0
-agar=>1
-mengeluarkan=>0
-mengeluarkan=>1
-menjerat=>0
-menjerat=>1
-ketua=>0
-ketua=>1
-hari=>0
-hari=>1
-jelas=>0
-jelas=>1
-menyebut=>0
-menyebut=>1
-jakarta=>0
-jakarta=>1
-klub=>0
-klub=>1
-oleh=>0
-oleh=>1
-karim=>0
-karim=>1
-bola=>0
-bola=>1
-rakyat=>0
-rakyat=>1
-samawi=>0
-samawi=>1
-aldrin=>0
-aldrin=>1
-anggaran=>0
-anggaran=>1
-kita=>0
-kita=>1
-dprd=>0
-dprd=>1
-persiba=>0
-persiba=>1
-iqbal=>0
-iqbal=>1
-ditetapkan=>0
-ditetapkan=>1
-berjamaah=>0
-berjamaah=>1
-rencananya=>0
-rencananya=>1
-secara=>0
-secara=>1
-pdip=>0
-pdip=>1
-pemilihan=>0
-pemilihan=>1
-juru=>0
-juru=>1
-jero=>0
-jero=>1
-partai=>0
-partai=>1
-status=>0
-status=>1
-menegakkan=>0
-menegakkan=>1
-manik=>0
-manik=>1
-demikian=>0
-demikian=>1
-susilo=>0
-susilo=>1
-tahun=>0
-tahun=>1
-langsung=>0
-langsung=>1
-pelantikannya=>0
-pelantikannya=>1
-jafar=>0
-jafar=>1
-adapun=>0
-adapun=>1
-jatuh=>0
-jatuh=>1
-kejaksaan=>0
-kejaksaan=>1
-ditunda=>0
-ditunda=>1
-sampai=>0
-sampai=>1
-pemkab=>0
-pemkab=>1
-bantul=>0
-bantul=>1
-kamil=>0
-kamil=>1
-sby=>0
-sby=>1
-bangka=>0
-bangka=>1
-hasil=>0
-hasil=>1
-selatan=>0
-selatan=>1
-dilantik=>0
-dilantik=>1
-terdiri=>0
-terdiri=>1
-telah=>0
-telah=>1
-akan=>0
-akan=>1
-dpr=>0
-dpr=>1
-bantuan=>0
-bantuan=>1
-komisi=>0
-komisi=>1
-umum=>0
-umum=>1
-wali=>0
-wali=>1
-provinsi=>0
-provinsi=>1
-pasha=>0
-pasha=>1
-penyandang=>0
-penyandang=>1
-pemilu=>0
-pemilu=>1
-juga=>0
-juga=>1
-sedangkan=>0
-sedangkan=>1
-pernah=>0
-pernah=>1
-bicara=>0
-bicara=>1
-menyeret=>0
-menyeret=>1
-sepak=>0
-sepak=>1
-dpd=>0
-dpd=>1
-tengah=>0
-tengah=>1
-pemberantasan=>0
-pemberantasan=>1
-adalah=>0
-adalah=>1
-jimmi=>0
-jimmi=>1
-akhirnya=>0
-akhirnya=>1
-terseret=>0
-terseret=>1
-periode=>0
-periode=>1
-idham=>0
-idham=>1
-yang=>0
-yang=>1
-pinjaman=>0
-pinjaman=>1
-tukar=>0
-tukar=>1
-ditangguhkan=>0
-ditangguhkan=>1
-bambang=>0
-bambang=>1
-husni=>0
-husni=>1
-peresmiannya=>0
-peresmiannya=>1
-rincian=>0
-rincian=>1
-rp=>0
-rp=>1
-presiden=>0
-presiden=>1
-guling=>0
-guling=>1
-merespon=>0
-merespon=>1
-di=>0
-di=>1
-puskesmas=>0
-puskesmas=>1
-tentang=>0
-tentang=>1
-demokrat=>0
-demokrat=>1
-memang=>0
-memang=>1
-chaidir=>0
-chaidir=>1
-dalam=>0
-dalam=>1
-herdian=>0
-herdian=>1
-selasa=>0
-selasa=>1
-sebelumnya=>0
-sebelumnya=>1
-korupsi=>0
-korupsi=>1
-untuk=>0
-untuk=>1
-esdm=>0
-esdm=>1
-tempo=>0
-tempo=>1
-surat=>0
-surat=>1
-mengatakan=>0
-mengatakan=>1
-lingkungan=>0
-lingkungan=>1
-hukum=>0
-hukum=>1
-dugaan=>0
-dugaan=>1
-integritas=>0
-integritas=>1
-pemerintah=>0
-pemerintah=>1
-negeri=>0
-negeri=>1
-mendapatkan=>0
-mendapatkan=>1
-dan=>0
-dan=>1
-pdi=>0
-pdi=>1
-ini=>0
-ini=>1
-tangerang=>0
-tangerang=>1
-menyandang=>0
-menyandang=>1
-anggota=>0
-anggota=>1
-diusulkan=>0
-diusulkan=>1
-ditangani=>0
-ditangani=>1
-permintaan=>0
-permintaan=>1
-bumd=>0
-bumd=>1
-koosnadi=>0
-koosnadi=>1
-julian=>0
-julian=>1
-nama=>0
-nama=>1
-sebelum=>0
-sebelum=>1
-ujarnya=>0
-ujarnya=>1
-hanya=>0
-hanya=>1
-yudhoyono=>0
-yudhoyono=>1
-zulkarnaen=>0
-zulkarnaen=>1
-sementara=>0
-sementara=>1
-terpilih=>0
-terpilih=>1
-wibisono=>0
-wibisono=>1
-sesuai=>0
-sesuai=>1
-termasuk=>0
-termasuk=>1
-ketiganya=>0
-ketiganya=>1
-kini=>0
-kini=>1
-miliar=>0
-miliar=>1
-idjie=>0
-idjie=>1
-kpu=>0
-kpu=>1
-sebagai=>0
-sebagai=>1
-direspon=>0
-direspon=>1
-perjuangan=>0
-perjuangan=>1
-barat=>0
-barat=>1
-istana=>0
-istana=>1
-hibah=>0
-hibah=>1
-karena=>0
-karena=>1
-kasusnya=>0
-kasusnya=>1
-jadi=>0
-jadi=>1
-dewan=>0
-dewan=>1
-aset=>0
-aset=>1
-memberi=>0
-memberi=>1
-diminta=>0
-diminta=>1
-dana=>0
-dana=>1
-damianus=>0
-damianus=>1
-daerah=>0
-daerah=>1
-terhadap=>0
-terhadap=>1
-wacik=>0
-wacik=>1
+----------------0---------------------
+kepresidenan => BARU => 1,
+golkar => BARU => 2,
+para => BARU => 1,
+pangkalpinang => BARU => 2,
+papua => BARU => 4,
+bupati => BARU => 1,
+malam => BARU => 1,
+ingin => BARU => 1,
+pun => BARU => 1,
+tersangka => BARU => 9,
+menjadi => BARU => 6,
+diterima => BARU => 1,
+keputusan => BARU => 1,
+tidak => BARU => 2,
+sudah => BARU => 2,
+pemerasan => BARU => 1,
+rinci => BARU => 1,
+mengajukan => BARU => 1,
+wonosobo => BARU => 2,
+jawa => BARU => 1,
+kejelasan => BARU => 1,
+penangguhan => BARU => 2,
+ke => BARU => 1,
+keppres => BARU => 2,
+bersedia => BARU => 1,
+dari => BARU => 12,
+pembangunan => BARU => 1,
+minta => BARU => 1,
+pada => BARU => 1,
+kota => BARU => 2,
+saja => BARU => 1,
+wakil => BARU => 2,
+hal => BARU => 1,
+ri => BARU => 2,
+terjerat => BARU => 1,
+tegas => BARU => 1,
+belitung => BARU => 1,
+negara => BARU => 1,
+pelantikan => BARU => 4,
+ada => BARU => 1,
+memimpin => BARU => 1,
+kementerian => BARU => 1,
+itu => BARU => 6,
+catatan => BARU => 1,
+kasus => BARU => 7,
+disampaikan => BARU => 1,
+sosial => BARU => 1,
+namun => BARU => 1,
+melilit => BARU => 1,
+agar => BARU => 1,
+mengeluarkan => BARU => 1,
+menjerat => BARU => 1,
+ketua => BARU => 1,
+hari => BARU => 3,
+jelas => BARU => 1,
+menyebut => BARU => 1,
+jakarta => BARU => 2,
+klub => BARU => 1,
+oleh => BARU => 3,
+karim => BARU => 1,
+bola => BARU => 1,
+rakyat => BARU => 2,
+samawi => BARU => 1,
+aldrin => BARU => 1,
+anggaran => BARU => 1,
+kita => BARU => 2,
+dprd => BARU => 3,
+persiba => BARU => 1,
+iqbal => BARU => 2,
+ditetapkan => BARU => 1,
+berjamaah => BARU => 1,
+rencananya => BARU => 1,
+secara => BARU => 2,
+pdip => BARU => 2,
+pemilihan => BARU => 1,
+juru => BARU => 1,
+jero => BARU => 3,
+partai => BARU => 3,
+status => BARU => 4,
+menegakkan => BARU => 1,
+manik => BARU => 1,
+demikian => BARU => 1,
+susilo => BARU => 1,
+tahun => BARU => 2,
+langsung => BARU => 1,
+pelantikannya => BARU => 6,
+jafar => BARU => 1,
+adapun => BARU => 2,
+jatuh => BARU => 1,
+kejaksaan => BARU => 3,
+ditunda => BARU => 2,
+sampai => BARU => 1,
+pemkab => BARU => 1,
+bantul => BARU => 2,
+kamil => BARU => 1,
+sby => BARU => 3,
+bangka => BARU => 1,
+hasil => BARU => 1,
+selatan => BARU => 1,
+dilantik => BARU => 1,
+terdiri => BARU => 1,
+telah => BARU => 2,
+akan => BARU => 1,
+dpr => BARU => 9,
+bantuan => BARU => 1,
+komisi => BARU => 2,
+umum => BARU => 1,
+wali => BARU => 1,
+provinsi => BARU => 1,
+pasha => BARU => 1,
+penyandang => BARU => 1,
+pemilu => BARU => 1,
+juga => BARU => 3,
+sedangkan => BARU => 3,
+pernah => BARU => 3,
+bicara => BARU => 1,
+menyeret => BARU => 1,
+sepak => BARU => 1,
+dpd => BARU => 6,
+tengah => BARU => 1,
+pemberantasan => BARU => 1,
+adalah => BARU => 4,
+jimmi => BARU => 4,
+akhirnya => BARU => 1,
+terseret => BARU => 1,
+periode => BARU => 4,
+idham => BARU => 2,
+yang => BARU => 14,
+pinjaman => BARU => 2,
+tukar => BARU => 1,
+ditangguhkan => BARU => 5,
+bambang => BARU => 1,
+husni => BARU => 1,
+peresmiannya => BARU => 1,
+rincian => BARU => 1,
+rp => BARU => 1,
+presiden => BARU => 5,
+guling => BARU => 1,
+merespon => BARU => 1,
+di => BARU => 4,
+puskesmas => BARU => 1,
+tentang => BARU => 1,
+demokrat => BARU => 2,
+memang => BARU => 1,
+chaidir => BARU => 2,
+dalam => BARU => 1,
+herdian => BARU => 2,
+selasa => BARU => 2,
+sebelumnya => BARU => 1,
+korupsi => BARU => 10,
+untuk => BARU => 7,
+esdm => BARU => 1,
+tempo => BARU => 1,
+surat => BARU => 1,
+mengatakan => BARU => 1,
+lingkungan => BARU => 1,
+hukum => BARU => 1,
+dugaan => BARU => 2,
+integritas => BARU => 1,
+pemerintah => BARU => 2,
+negeri => BARU => 2,
+mendapatkan => BARU => 1,
+dan => BARU => 10,
+pdi => BARU => 1,
+ini => BARU => 2,
+tangerang => BARU => 1,
+menyandang => BARU => 3,
+anggota => BARU => 12,
+diusulkan => BARU => 3,
+ditangani => BARU => 4,
+permintaan => BARU => 3,
+bumd => BARU => 1,
+koosnadi => BARU => 1,
+julian => BARU => 3,
+nama => BARU => 4,
+sebelum => BARU => 1,
+ujarnya => BARU => 2,
+hanya => BARU => 1,
+yudhoyono => BARU => 1,
+zulkarnaen => BARU => 2,
+sementara => BARU => 3,
+terpilih => BARU => 11,
+wibisono => BARU => 1,
+sesuai => BARU => 1,
+termasuk => BARU => 1,
+ketiganya => BARU => 1,
+kini => BARU => 3,
+miliar => BARU => 1,
+idjie => BARU => 2,
+kpu => BARU => 6,
+sebagai => BARU => 1,
+direspon => BARU => 2,
+perjuangan => BARU => 1,
+barat => BARU => 4,
+istana => BARU => 1,
+hibah => BARU => 1,
+karena => BARU => 1,
+kasusnya => BARU => 2,
+jadi => BARU => 1,
+dewan => BARU => 1,
+aset => BARU => 1,
+memberi => BARU => 1,
+diminta => BARU => 1,
+dana => BARU => 4,
+damianus => BARU => 1,
+daerah => BARU => 1,
+terhadap => BARU => 1,
+wacik => BARU => 1,
+------------------TOT---------------------
+----------------1---------------------
+kepresidenan => SEBELUM => 1, SESUDAH => 1,1,
+mengusulkan => BARU => 0,1,
+proses => BARU => 0,2,
+samping => BARU => 0,1,
+pun => SEBELUM => 0,1, SESUDAH => 0,1,
+diucapkannya => BARU => 0,1,
+tersangka => SEBELUM => 0,1, SESUDAH => 0,7,
+tidak => SEBELUM => 0,7, SESUDAH => 0,2,
+sudah => SEBELUM => 0,2, SESUDAH => 0,3,
+usulan => BARU => 0,3,
+pemerasan => SEBELUM => 0,3, SESUDAH => 0,1,
+berstatus => BARU => 0,1,
+ke => SEBELUM => 0,1, SESUDAH => 0,1,
+dari => SEBELUM => 0,1, SESUDAH => 0,5,
+pembangunan => SEBELUM => 0,5, SESUDAH => 0,1,
+peraturan => BARU => 0,2,
+tindakan => BARU => 0,2,
+kabinet => BARU => 0,1,
+kpk => BARU => 0,9,
+serta => BARU => 0,1,
+terakhir => BARU => 0,1,
+pihak => BARU => 0,1,
+kertanegara => BARU => 0,1,
+pada => SEBELUM => 0,1, SESUDAH => 0,1,
+wakil => SEBELUM => 0,1, SESUDAH => 0,2,
+daya => BARU => 0,1,
+kepada => BARU => 0,4,
+parlemen => BARU => 0,1,
+mineral => BARU => 0,1,
+hal => SEBELUM => 0,1, SESUDAH => 0,1,
+komisioner => BARU => 0,1,
+terjerat => SEBELUM => 0,1, SESUDAH => 0,1,
+sedang => BARU => 0,1,
+waktu => BARU => 0,1,
+pelantikan => SEBELUM => 0,1, SESUDAH => 0,6,
+dia => BARU => 0,2,
+kementerian => SEBELUM => 0,2, SESUDAH => 0,1,
+lembaga => BARU => 0,3,
+sabtu => BARU => 0,1,
+dikabulkannya => BARU => 0,1,
+asal => BARU => 0,1,
+seorang => BARU => 0,1,
+undangan => BARU => 0,1,
+itu => SEBELUM => 0,1, SESUDAH => 0,4,
+soal => BARU => 0,1,
+ditembuskan => BARU => 0,1,
+disampaikan => SEBELUM => 0,1, SESUDAH => 0,3,
+kasus => SEBELUM => 0,3, SESUDAH => 0,10,
+ucapkan => BARU => 0,1,
+banten => BARU => 0,1,
+bertujuan => BARU => 0,1,
+namun => SEBELUM => 0,1, SESUDAH => 0,1,
+kutai => BARU => 0,1,
+agar => SEBELUM => 0,1, SESUDAH => 0,1,
+diantaranya => BARU => 0,1,
+com => BARU => 0,2,
+kata => BARU => 0,1,
+ketua => SEBELUM => 0,1, SESUDAH => 0,2,
+jelas => SEBELUM => 0,2, SESUDAH => 0,2,
+terlibat => BARU => 0,1,
+melindungi => BARU => 0,1,
+jakarta => SEBELUM => 0,1, SESUDAH => 0,1,
+klub => SEBELUM => 0,1, SESUDAH => 0,1,
+oleh => SEBELUM => 0,1, SESUDAH => 0,1,
+upaya => BARU => 0,1,
+melakukan => BARU => 0,2,
+rakyat => SEBELUM => 0,2, SESUDAH => 0,1,
+samawi => SEBELUM => 0,1, SESUDAH => 0,2,
+anggaran => SEBELUM => 0,2, SESUDAH => 0,1,
+kepercayaan => BARU => 0,2,
+dengan => BARU => 0,3,
+kemungkinan => BARU => 0,1,
+badan => BARU => 0,1,
+meminta => BARU => 0,1,
+dprd => SEBELUM => 0,1, SESUDAH => 0,1,
+persiba => SEBELUM => 0,1, SESUDAH => 0,1,
+menteri => BARU => 0,1,
+penting => BARU => 0,1,
+diskusi => BARU => 0,1,
+sumpah => BARU => 0,3,
+merupakan => BARU => 0,5,
+hadar => BARU => 0,5,
+pdip => SEBELUM => 0,5, SESUDAH => 0,1,
+menduduki => BARU => 0,1,
+pemilihan => SEBELUM => 0,1, SESUDAH => 0,3,
+jero => SEBELUM => 0,3, SESUDAH => 0,5,
+partai => SEBELUM => 0,5, SESUDAH => 0,1,
+tersangkut => BARU => 0,1,
+status => SEBELUM => 0,1, SESUDAH => 0,1,
+dinyatakan => BARU => 0,1,
+atas => BARU => 0,3,
+demikian => SEBELUM => 0,3, SESUDAH => 0,1,
+terduga => BARU => 0,1,
+posisi => BARU => 0,1,
+tahun => SEBELUM => 0,1, SESUDAH => 0,3,
+pria => BARU => 0,1,
+pelantikannya => SEBELUM => 0,1, SESUDAH => 0,1,
+adapun => SEBELUM => 0,1, SESUDAH => 0,1,
+mengirimkan => BARU => 0,1,
+sebuah => BARU => 0,1,
+orang => BARU => 0,2,
+ditunda => SEBELUM => 0,2, SESUDAH => 0,2,
+publik => BARU => 0,1,
+bantul => SEBELUM => 0,1, SESUDAH => 0,1,
+memproses => BARU => 0,1,
+menyetujui => BARU => 0,1,
+perundangan => BARU => 0,1,
+dilantik => SEBELUM => 0,1, SESUDAH => 0,2,
+akan => SEBELUM => 0,2, SESUDAH => 0,6,
+apuy => BARU => 0,2,
+dpr => SEBELUM => 0,2, SESUDAH => 0,8,
+kami => BARU => 0,1,
+punya => BARU => 0,1,
+komisi => SEBELUM => 0,1, SESUDAH => 0,5,
+umum => SEBELUM => 0,5, SESUDAH => 0,3,
+perbuatan => BARU => 0,2,
+atau => BARU => 0,6,
+juga => SEBELUM => 0,6, SESUDAH => 0,2,
+lalu => BARU => 0,1,
+ditanya => BARU => 0,1,
+operasional => BARU => 0,1,
+pemberantasan => SEBELUM => 0,1, SESUDAH => 0,3,
+citra => BARU => 0,1,
+pengawas => BARU => 0,1,
+terdakwa => BARU => 0,6,
+sekedar => BARU => 0,1,
+periode => SEBELUM => 0,1, SESUDAH => 0,1,
+idham => SEBELUM => 0,1, SESUDAH => 0,2,
+kehormatan => BARU => 0,1,
+prinsipnya => BARU => 0,1,
+yang => SEBELUM => 0,1, SESUDAH => 0,16,
+mantan => BARU => 0,1,
+penundaan => BARU => 0,3,
+bambang => SEBELUM => 0,3, SESUDAH => 0,3,
+perwakilan => BARU => 0,2,
+nafis => BARU => 0,1,
+presiden => SEBELUM => 0,1, SESUDAH => 0,1,
+rendah => BARU => 0,1,
+di => SEBELUM => 0,1, SESUDAH => 0,3,
+puskesmas => SEBELUM => 0,3, SESUDAH => 0,1,
+sumber => BARU => 0,1,
+gumay => BARU => 0,1,
+menunda => BARU => 0,1,
+demokrat => SEBELUM => 0,1, SESUDAH => 0,1,
+kooperatif => BARU => 0,1,
+yaitu => BARU => 0,1,
+respon => BARU => 0,1,
+herdian => SEBELUM => 0,1, SESUDAH => 0,2,
+menilai => BARU => 0,1,
+dalam => SEBELUM => 0,1, SESUDAH => 0,5,
+minggu => BARU => 0,1,
+sebelumnya => SEBELUM => 0,1, SESUDAH => 0,1,
+korupsi => SEBELUM => 0,1, SESUDAH => 0,14,
+sendiri => BARU => 0,4,
+mempercepat => BARU => 0,1,
+senilai => BARU => 0,1,
+acara => BARU => 0,1,
+beberapa => BARU => 0,1,
+untuk => SEBELUM => 0,1, SESUDAH => 0,4,
+esdm => SEBELUM => 0,4, SESUDAH => 0,1,
+jogjakarta => BARU => 0,1,
+surat => SEBELUM => 0,1, SESUDAH => 0,3,
+mengatakan => SEBELUM => 0,3, SESUDAH => 0,1,
+singkat => BARU => 0,1,
+masyarakat => BARU => 0,1,
+kerja => BARU => 0,1,
+hukum => SEBELUM => 0,1, SESUDAH => 0,1,
+saat => BARU => 0,5,
+melawan => BARU => 0,2,
+dugaan => SEBELUM => 0,2, SESUDAH => 0,4,
+tutur => BARU => 0,1,
+widjojanto => BARU => 0,1,
+dan => SEBELUM => 0,1, SESUDAH => 0,7,
+ini => SEBELUM => 0,7, SESUDAH => 0,3,
+menyandang => SEBELUM => 0,3, SESUDAH => 0,1,
+anggota => SEBELUM => 0,1, SESUDAH => 0,12,
+permintaan => SEBELUM => 0,12, SESUDAH => 0,1,
+koosnadi => SEBELUM => 0,1, SESUDAH => 0,2,
+melanggar => BARU => 0,3,
+diketahui => BARU => 0,1,
+diduga => BARU => 0,1,
+menyatakan => BARU => 0,1,
+ditemui => BARU => 0,1,
+rupiah => BARU => 0,1,
+pesan => BARU => 0,1,
+dilakukan => BARU => 0,1,
+diharapkan => BARU => 0,1,
+miskinnya => BARU => 0,1,
+tersebut => BARU => 0,3,
+terpilih => SEBELUM => 0,3, SESUDAH => 0,11,
+marthen => BARU => 0,2,
+undang => BARU => 0,2,
+bawaslu => BARU => 0,1,
+melalui => BARU => 0,2,
+dapil => BARU => 0,1,
+termasuk => SEBELUM => 0,1, SESUDAH => 0,1,
+kpu => SEBELUM => 0,1, SESUDAH => 0,4,
+sebagai => SEBELUM => 0,4, SESUDAH => 0,5,
+bali => BARU => 0,1,
+hibah => SEBELUM => 0,1, SESUDAH => 0,1,
+karena => SEBELUM => 0,1, SESUDAH => 0,1,
+menurut => BARU => 0,2,
+akibat => BARU => 0,1,
+dewan => SEBELUM => 0,1, SESUDAH => 0,4,
+sumpahnya => BARU => 0,1,
+dinilai => BARU => 0,1,
+sepakbola => BARU => 0,1,
+mempermudah => BARU => 0,1,
+diminta => SEBELUM => 0,1, SESUDAH => 0,1,
+dana => SEBELUM => 0,1, SESUDAH => 0,2,
+tutup => BARU => 0,1,
+bagi => BARU => 0,1,
+sepakati => BARU => 0,1,
+energi => BARU => 0,1,
+jika => BARU => 0,2,
+triliun => BARU => 0,1,
+terhadap => SEBELUM => 0,1, SESUDAH => 0,3,
+wacik => SEBELUM => 0,3, SESUDAH => 0,3,
+merusak => BARU => 0,1,
+kronosnews => BARU => 0,2,
+------------------TOT---------------------
+----------------2---------------------
+penyidikan => BARU => 0,0,1,
+corruption => BARU => 0,0,1,
+rantung => BARU => 0,0,1,
+ternyata => BARU => 0,0,1,
+tingkatan => BARU => 0,0,1,
+proses => SEBELUM => 0,0,1, SESUDAH => 0,0,4,
+golkar => SEBELUM => 0,0,4, SESUDAH => 0,0,2,
+para => SEBELUM => 0,0,2, SESUDAH => 0,0,4,
+politisi => BARU => 0,0,1,
+sedianya => BARU => 0,0,1,
+harianto => BARU => 0,0,1,
+papua => SEBELUM => 0,0,1, SESUDAH => 0,0,17,
+icw => BARU => 0,0,3,
+oktober => BARU => 0,0,1,
+menjadi => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+– => BARU => 0,0,1,
+tercatat => BARU => 0,0,1,
+tidak => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+sudah => SEBELUM => 0,0,3, SESUDAH => 0,0,4,
+hingga => BARU => 0,0,1,
+mengajukan => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+yumthe => BARU => 0,0,1,
+pengadilan => BARU => 0,0,3,
+ke => SEBELUM => 0,0,3, SESUDAH => 0,0,1,
+dari => SEBELUM => 0,0,1, SESUDAH => 0,0,12,
+tipikor => BARU => 0,0,1,
+pembangunan => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+serta => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+kesepuluh => BARU => 0,0,2,
+proyek => BARU => 0,0,1,
+pada => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+layak => BARU => 0,0,1,
+kasasi => BARU => 0,0,2,
+bersalah => BARU => 0,0,1,
+saja => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+vertikal => BARU => 0,0,1,
+wakil => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+kepada => SEBELUM => 0,0,3, SESUDAH => 0,0,1,
+tentu => BARU => 0,0,1,
+ri => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+merilis => BARU => 0,0,1,
+terjerat => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+pelantikan => SEBELUM => 0,0,2, SESUDAH => 0,0,2,
+watch => BARU => 0,0,1,
+ada => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+persidangan => BARU => 0,0,1,
+rencana => BARU => 0,0,1,
+menjalani => BARU => 0,0,1,
+lembaga => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+rumah => BARU => 0,0,1,
+jayapura => BARU => 0,0,1,
+divonis => BARU => 0,0,3,
+itu => SEBELUM => 0,0,3, SESUDAH => 0,0,2,
+mendatang => BARU => 0,0,1,
+kembali => BARU => 0,0,1,
+dirinya => BARU => 0,0,1,
+kasus => SEBELUM => 0,0,1, SESUDAH => 0,0,5,
+namun => SEBELUM => 0,0,5, SESUDAH => 0,0,1,
+agar => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+ataukah => BARU => 0,0,1,
+origenes => BARU => 0,0,1,
+rabu => BARU => 0,0,1,
+apbd => BARU => 0,0,3,
+com => SEBELUM => 0,0,3, SESUDAH => 0,0,1,
+ketua => SEBELUM => 0,0,1, SESUDAH => 0,0,4,
+jakarta => SEBELUM => 0,0,4, SESUDAH => 0,0,1,
+mencampuri => BARU => 0,0,1,
+oleh => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+mrpb => BARU => 0,0,4,
+yenu => BARU => 0,0,1,
+tinggal => BARU => 0,0,1,
+peneliti => BARU => 0,0,1,
+anehnya => BARU => 0,0,1,
+melakukan => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+aminadab => BARU => 0,0,1,
+fakta => BARU => 0,0,1,
+divonisi => BARU => 0,0,1,
+ma => BARU => 0,0,2,
+lantaran => BARU => 0,0,1,
+mahkamah => BARU => 0,0,2,
+rakyat => SEBELUM => 0,0,2, SESUDAH => 0,0,4,
+dengan => SEBELUM => 0,0,4, SESUDAH => 0,0,2,
+kekuatan => BARU => 0,0,1,
+dprd => SEBELUM => 0,0,1, SESUDAH => 0,0,5,
+sanusi => BARU => 0,0,1,
+nauw => BARU => 0,0,2,
+dprp => BARU => 0,0,3,
+zonadamai => BARU => 0,0,1,
+abdul => BARU => 0,0,1,
+partai => SEBELUM => 0,0,1, SESUDAH => 0,0,6,
+tersangkut => SEBELUM => 0,0,6, SESUDAH => 0,0,2,
+status => SEBELUM => 0,0,2, SESUDAH => 0,0,2,
+berbagai => BARU => 0,0,1,
+harus => BARU => 0,0,1,
+hehanussa => BARU => 0,0,1,
+selaku => BARU => 0,0,1,
+dituduhkan => BARU => 0,0,1,
+dosa => BARU => 0,0,1,
+tahun => SEBELUM => 0,0,1, SESUDAH => 0,0,5,
+pelantikannya => SEBELUM => 0,0,5, SESUDAH => 0,0,1,
+tanggal => BARU => 0,0,1,
+dua => BARU => 0,0,1,
+bulan => BARU => 0,0,1,
+orang => SEBELUM => 0,0,1, SESUDAH => 0,0,7,
+kejaksaan => SEBELUM => 0,0,7, SESUDAH => 0,0,2,
+ditunda => SEBELUM => 0,0,2, SESUDAH => 0,0,1,
+tinggi => BARU => 0,0,3,
+dilantik => SEBELUM => 0,0,3, SESUDAH => 0,0,3,
+akan => SEBELUM => 0,0,3, SESUDAH => 0,0,1,
+berang => BARU => 0,0,1,
+asmuruf => BARU => 0,0,1,
+dpr => SEBELUM => 0,0,1, SESUDAH => 0,0,8,
+politikus => BARU => 0,0,1,
+kantor => BARU => 0,0,1,
+adolf => BARU => 0,0,1,
+provinsi => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+pemilu => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+ia => BARU => 0,0,2,
+adalah => SEBELUM => 0,0,2, SESUDAH => 0,0,3,
+terdakwa => SEBELUM => 0,0,3, SESUDAH => 0,0,4,
+erick => BARU => 0,0,1,
+periode => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+instansi => BARU => 0,0,1,
+tetap => BARU => 0,0,1,
+yang => SEBELUM => 0,0,1, SESUDAH => 0,0,7,
+wilayah => BARU => 0,0,1,
+membuat => BARU => 0,0,1,
+imanuel => BARU => 0,0,1,
+tapi => BARU => 0,0,2,
+menyerukan => BARU => 0,0,1,
+kompasiana => BARU => 0,0,1,
+rp => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+mempunyai => BARU => 0,0,1,
+di => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+bisa => BARU => 0,0,1,
+demokrat => SEBELUM => 0,0,1, SESUDAH => 0,0,4,
+inkracht => BARU => 0,0,1,
+dulu => BARU => 0,0,1,
+dalam => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+legislatif => BARU => 0,0,1,
+mengingat => BARU => 0,0,1,
+korupsi => SEBELUM => 0,0,1, SESUDAH => 0,0,6,
+penggunaan => BARU => 0,0,1,
+untuk => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+mengatakan => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+masih => BARU => 0,0,4,
+masyarakat => SEBELUM => 0,0,4, SESUDAH => 0,0,1,
+terkait => BARU => 0,0,1,
+irawan => BARU => 0,0,1,
+hukum => SEBELUM => 0,0,1, SESUDAH => 0,0,5,
+hanura => BARU => 0,0,1,
+saat => SEBELUM => 0,0,1, SESUDAH => 0,0,4,
+dugaan => SEBELUM => 0,0,4, SESUDAH => 0,0,1,
+pemerintah => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+max => BARU => 0,0,1,
+dan => SEBELUM => 0,0,1, SESUDAH => 0,0,7,
+ini => SEBELUM => 0,0,7, SESUDAH => 0,0,6,
+anggota => SEBELUM => 0,0,6, SESUDAH => 0,0,9,
+maupun => BARU => 0,0,1,
+publikasi => BARU => 0,0,1,
+konsultasi => BARU => 0,0,1,
+terpidana => BARU => 0,0,1,
+biaya => BARU => 0,0,1,
+nama => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+sebelum => SEBELUM => 0,0,3, SESUDAH => 0,0,2,
+belanja => BARU => 0,0,1,
+john => BARU => 0,0,3,
+hanya => SEBELUM => 0,0,3, SESUDAH => 0,0,1,
+diduga => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+indonesia => BARU => 0,0,1,
+achmaddari => BARU => 0,0,1,
+januari => BARU => 0,0,1,
+rekomendasi => BARU => 0,0,1,
+urusan => BARU => 0,0,1,
+tersebut => SEBELUM => 0,0,1, SESUDAH => 0,0,5,
+mereka => BARU => 0,0,6,
+penjara => BARU => 0,0,3,
+terpilih => SEBELUM => 0,0,3, SESUDAH => 0,0,2,
+rahaningmas => BARU => 0,0,1,
+penggelapan => BARU => 0,0,1,
+fiktif => BARU => 0,0,1,
+vitalis => BARU => 0,0,1,
+merujuk => BARU => 0,0,1,
+menyelewengkan => BARU => 0,0,1,
+september => BARU => 0,0,2,
+melalui => SEBELUM => 0,0,2, SESUDAH => 0,0,1,
+gerindra => BARU => 0,0,1,
+ibo => BARU => 0,0,3,
+mengingatkan => BARU => 0,0,1,
+menunggu => BARU => 0,0,1,
+miliar => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+sebagai => SEBELUM => 0,0,1, SESUDAH => 0,0,3,
+setela => BARU => 0,0,1,
+barat => SEBELUM => 0,0,1, SESUDAH => 0,0,7,
+apakah => BARU => 0,0,1,
+karena => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+april => BARU => 0,0,1,
+menurut => SEBELUM => 0,0,1, SESUDAH => 0,0,1,
+majelis => BARU => 0,0,2,
+menyarankan => BARU => 0,0,1,
+agung => BARU => 0,0,2,
+pkb => BARU => 0,0,2,
+inilah => BARU => 0,0,1,
+terdata => BARU => 0,0,1,
+pidana => BARU => 0,0,2,
+hakim => BARU => 0,0,1,
+bagi => SEBELUM => 0,0,1, SESUDAH => 0,0,2,
+dana => SEBELUM => 0,0,2, SESUDAH => 0,0,2,
+berikut => BARU => 0,0,1,
+putusan => BARU => 0,0,2,
+roberth => BARU => 0,0,1,
+melianus => BARU => 0,0,1,
+ade => BARU => 0,0,1,
 ------------------TOT---------------------
