@@ -109,7 +109,7 @@ sub query
 	my @match = ();
 	
 	foreach $w (@query_words){
-		if(exists($index{$w}){
+		if(exists($index{$w})){
 			push(@match, $index{$w});
 		}
 	}
