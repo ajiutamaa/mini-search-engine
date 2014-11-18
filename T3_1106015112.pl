@@ -3,18 +3,35 @@
 my %index = ();
 my %index_title = ();
 
-open(TEST, ">test_output.txt");
-index_korpus();
+my @docs_number = ();
 
-foreach $keyDoc (keys %index_title){
-	printf TEST "%-15s => ", $keyDoc;
-	print TEST scalar(@{$index_title{$keyDoc}}) . " | ";
-	foreach $t (@{$index_title{$keyDoc}}){
-		if(not defined($t)){print TEST "0 ";}
-		else{print TEST "$t ";}
-	}
-	print TEST "|\n";
-}
+open(TEST, ">test_output_title.txt");
+open(TEST2, ">test_output_document.txt");
+
+my $num_of_docs = index_korpus();
+
+#--------------------------DEBUG---------------------------------
+print TEST "--------------TITLE INDEX----------------\n";	#
+foreach $keyDoc (keys %index_title){				#
+	printf TEST "%-15s => ", $keyDoc;			#
+	print TEST scalar(@{$index_title{$keyDoc}}) . " | ";	#
+	foreach $t (@{$index_title{$keyDoc}}){			#
+		if(not defined($t)){print TEST "0 ";}		#
+		else{print TEST "$t ";}				#
+	}							#
+	print TEST "|\n";					#
+}								#
+print TEST2 "--------------DOCUMENTS INDEX----------------\n";	#
+foreach $keyDoc (keys %index){					#
+	printf TEST2 "%-15s => ", $keyDoc;			#
+	print TEST2 scalar(@{$index{$keyDoc}}) . " | ";		#
+	foreach $t (@{$index{$keyDoc}}){			#
+		if(not defined($t)){print TEST2 "0 ";}		#
+		else{print TEST2 "$t ";}			#
+	}							#
+	print TEST2 "|\n";					#
+}								#
+#----------------------------------------------------------------
 
 query("tersangkut korupsi");
 
@@ -57,6 +74,8 @@ sub index_korpus
 			$documentText .= $line;
 		}
 	}
+	
+	return $docNumber;
 }
 
 # @arg: document
@@ -127,15 +146,40 @@ sub query
 	my ($query_string) = $_[0];
 	
 	my @query_words = split(/\s/, $query_string);
-	my @match = ();
+	my %document_match = ();
+	my %title_match = ();
 	
 	foreach $w (@query_words){
 		if(exists($index{$w})){
-			push(@match, $index{$w});
+			my @hasil = @{$index{$w}};
+			print "query: $w DOCUMENT: ADA @hasil\n";
+			$document_match{$w} = $index{$w};
+		}
+		if(exists($index_title{$w})){
+			my @hasil = @{$index_title{$w}};
+			print "query: $w TITLE ADA @hasil\n";
+			$title_match{$w} = $index_title{$w};
 		}
 	}
 	
-	
+	for($i = 0; $i < $num_of_docs; $i++){
+		print "Dokumen $i: ";
+		my $match = 0;
+		
+		foreach $w (keys %document_match){
+			$freq = @{$document_match{$w}}[$i];
+			if(defined($freq)){
+				$match = 1;
+			}
+		}
+		foreach $w (keys %title_match){
+			$freq = @{$title_match{$w}}[$i];
+			if(defined($freq)){
+				$match = 1;
+			}
+		}
+		print "$match\n";
+	}
 	
 	# @arr = @{$index{$query}};
 	# for($i = 0; $i < scalar(@arr); $i++){
