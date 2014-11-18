@@ -2,30 +2,30 @@
 
 my %index = ();
 open(TEST, ">test_output.txt");
-# @arg: corpus
 parse_documents();
 
-# foreach $key (keys %index){
-	# print TEST "$key => ". scalar(@{$index{$key}}) . " => ";
-	# 
-	# foreach $i (@{$index{$key}}){
-		# print TEST "$i,",
-	# }
-	#@arr = @{$index{$key}};
-	# 
-	# print TEST "$key => ";
-	# for(my $i = 0; $i < scalar(@arr); $i++){
-		# if(exists(@{$index{$key}}[$i])){
-			# print TEST "@{$index{$key}}[$i] | ";
-		# }
-		# else {
-			# print TEST "0 | ";
+foreach $keyDoc (keys %index){
+	printf TEST "%-15s => ", $keyDoc;
+	print TEST scalar(@{$index{$keyDoc}}) . " | ";
+	foreach $t (@{$index{$keyDoc}}){
+		if(not defined($t)){print TEST "0 ";}
+		else{print TEST "$t ";}
+	}
+	# for($i = 0; $i < scalar(@{$index{$keyDoc}}); $i++){
+		# $t = @{$index{$keyDoc}}[$i];
+		# foreach $t (@{$index{$keyDoc}}){
+			# if(not defined($t)){print TEST "0 ";}
+			# else{print TEST "$t ";}
 		# }
 	# }
-	# print TEST "\n";
-# }
+	print TEST "|\n";
+}
+
+query("tersangkut korupsi");
 
 close(TEST);
+
+# @arg: corpus
 sub parse_documents
 {
 	open(KORPUS, "korpus_test.txt");
@@ -85,10 +85,7 @@ sub update_index
 {
 	my (%docTokens) = %{$_[0]};
 	my ($docNumber) = $_[1];
-	
-	my @new_arr = ();
-	
-	print TEST "----------------$docNumber---------------------\n";
+		
 	foreach $keyDoc (keys %docTokens){
 		# for each term in document, update index
 		if(not exists($index{$keyDoc})){
@@ -96,32 +93,31 @@ sub update_index
 			$index{$keyDoc} = \@new_arr;
 			
 			@{$index{$keyDoc}}[$docNumber] = $docTokens{$keyDoc};
-			print TEST "$keyDoc => BARU $index{$keyDoc} => ";
-			foreach $t (@{$index{$keyDoc}}){
-				if(not defined($t)){print TEST "0,";}
-				else{print TEST "$t,";}
-			}
-			print TEST "\n";
-			#print TEST "@{$index{$keyDoc}}\n";
 		}
 		else {
-			print TEST "$keyDoc => SEBELUM $index{$keyDoc} => ";
-			foreach $t (@{$index{$keyDoc}}){
-				if(not defined($t)){print TEST "0,";}
-				else{print TEST "$t,";}
-			}
-			print TEST " SESUDAH $index{$keyDoc} => ";
 			@{$index{$keyDoc}}[$docNumber] = $docTokens{$keyDoc};
-			foreach $t (@{$index{$keyDoc}}){
-				if(not defined($t)){print TEST "0,";}
-				else{print TEST "$t,";}
-			}
-			print TEST "\n";
 		}
-		#print TEST $keyDoc . " => freq => $docTokens{$keyDoc}\n";
-		
-		#print TEST $keyDoc . " => array => " . @{$index{$keyDoc}}[$docNumber] . " \n";
+	}
+}
+
+# @arg: query string
+sub query
+{
+	my ($query_string) = $_[0];
+	
+	my @query_words = split(/\s/, $query_string);
+	my @match = ();
+	
+	foreach $w (@query_words){
+		if(exists($index{$w}){
+			push(@match, $index{$w});
+		}
 	}
 	
-	print TEST "------------------TOT---------------------\n";
+	
+	
+	# @arr = @{$index{$query}};
+	# for($i = 0; $i < scalar(@arr); $i++){
+		# print "$i: $arr[$i]\n";
+	# }
 }

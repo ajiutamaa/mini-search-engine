@@ -1,647 +1,479 @@
-----------------0---------------------
-kepresidenan => BARU ARRAY(0x1fe9b9c) => 1,
-golkar => BARU ARRAY(0x1ffd9f4) => 2,
-para => BARU ARRAY(0x1ffda24) => 1,
-pangkalpinang => BARU ARRAY(0x1ffda54) => 2,
-papua => BARU ARRAY(0x1ffda84) => 4,
-bupati => BARU ARRAY(0x1ffdab4) => 1,
-malam => BARU ARRAY(0x1ffdae4) => 1,
-ingin => BARU ARRAY(0x1ffdb14) => 1,
-pun => BARU ARRAY(0x1ffdb44) => 1,
-tersangka => BARU ARRAY(0x1ffdb74) => 9,
-menjadi => BARU ARRAY(0x1ffdba4) => 6,
-diterima => BARU ARRAY(0x1ffdbd4) => 1,
-keputusan => BARU ARRAY(0x1ffdc04) => 1,
-tidak => BARU ARRAY(0x1ffdc34) => 2,
-sudah => BARU ARRAY(0x1ffdc64) => 2,
-pemerasan => BARU ARRAY(0x1ffdc94) => 1,
-rinci => BARU ARRAY(0x1ffdcc4) => 1,
-mengajukan => BARU ARRAY(0x1ffdcf4) => 1,
-wonosobo => BARU ARRAY(0x1ffdd24) => 2,
-jawa => BARU ARRAY(0x1ffdd54) => 1,
-kejelasan => BARU ARRAY(0x1ffdd84) => 1,
-penangguhan => BARU ARRAY(0x1ffddb4) => 2,
-ke => BARU ARRAY(0x1ffdde4) => 1,
-keppres => BARU ARRAY(0x1ffde14) => 2,
-bersedia => BARU ARRAY(0x1ffde44) => 1,
-dari => BARU ARRAY(0x1ffde74) => 12,
-pembangunan => BARU ARRAY(0x1ffdea4) => 1,
-minta => BARU ARRAY(0x1ffded4) => 1,
-pada => BARU ARRAY(0x1ffdf04) => 1,
-kota => BARU ARRAY(0x1ffdf34) => 2,
-saja => BARU ARRAY(0x1ffdf64) => 1,
-wakil => BARU ARRAY(0x1ffdf94) => 2,
-hal => BARU ARRAY(0x1ffdfc4) => 1,
-ri => BARU ARRAY(0x1ffdff4) => 2,
-terjerat => BARU ARRAY(0x1ffe024) => 1,
-tegas => BARU ARRAY(0x1ffe054) => 1,
-belitung => BARU ARRAY(0x1ffe084) => 1,
-negara => BARU ARRAY(0x1ffe0b4) => 1,
-pelantikan => BARU ARRAY(0x1ffe0e4) => 4,
-ada => BARU ARRAY(0x1ffe114) => 1,
-memimpin => BARU ARRAY(0x1ffe144) => 1,
-kementerian => BARU ARRAY(0x1ffe174) => 1,
-itu => BARU ARRAY(0x1ffe1a4) => 6,
-catatan => BARU ARRAY(0x1ffe1d4) => 1,
-kasus => BARU ARRAY(0x1ffe204) => 7,
-disampaikan => BARU ARRAY(0x1ffe234) => 1,
-sosial => BARU ARRAY(0x1ffe264) => 1,
-namun => BARU ARRAY(0x1ffe294) => 1,
-melilit => BARU ARRAY(0x1ffe2c4) => 1,
-agar => BARU ARRAY(0x1ffe2f4) => 1,
-mengeluarkan => BARU ARRAY(0x1ffe324) => 1,
-menjerat => BARU ARRAY(0x1ffe354) => 1,
-ketua => BARU ARRAY(0x1ffe384) => 1,
-hari => BARU ARRAY(0x1ffe3b4) => 3,
-jelas => BARU ARRAY(0x1ffe3e4) => 1,
-menyebut => BARU ARRAY(0x1ffe414) => 1,
-jakarta => BARU ARRAY(0x1ffe444) => 2,
-klub => BARU ARRAY(0x1ffe474) => 1,
-oleh => BARU ARRAY(0x1ffe4a4) => 3,
-karim => BARU ARRAY(0x1ffe4d4) => 1,
-bola => BARU ARRAY(0x1ffe504) => 1,
-rakyat => BARU ARRAY(0x1ffe534) => 2,
-samawi => BARU ARRAY(0x1ffe564) => 1,
-aldrin => BARU ARRAY(0x1ffe594) => 1,
-anggaran => BARU ARRAY(0x1ffe5c4) => 1,
-kita => BARU ARRAY(0x1ffe5f4) => 2,
-dprd => BARU ARRAY(0x1ffe624) => 3,
-persiba => BARU ARRAY(0x1ffe654) => 1,
-iqbal => BARU ARRAY(0x1ffe684) => 2,
-ditetapkan => BARU ARRAY(0x1ffe6b4) => 1,
-berjamaah => BARU ARRAY(0x1fffc3c) => 1,
-rencananya => BARU ARRAY(0x1fffc6c) => 1,
-secara => BARU ARRAY(0x1fffc9c) => 2,
-pdip => BARU ARRAY(0x1fffccc) => 2,
-pemilihan => BARU ARRAY(0x1fffcfc) => 1,
-juru => BARU ARRAY(0x1fffd2c) => 1,
-jero => BARU ARRAY(0x1fffd5c) => 3,
-partai => BARU ARRAY(0x1fffd8c) => 3,
-status => BARU ARRAY(0x1fffdbc) => 4,
-menegakkan => BARU ARRAY(0x1fffdec) => 1,
-manik => BARU ARRAY(0x1fffe1c) => 1,
-demikian => BARU ARRAY(0x1fffe4c) => 1,
-susilo => BARU ARRAY(0x1fffe7c) => 1,
-tahun => BARU ARRAY(0x1fffeac) => 2,
-langsung => BARU ARRAY(0x1fffedc) => 1,
-pelantikannya => BARU ARRAY(0x1ffff0c) => 6,
-jafar => BARU ARRAY(0x1ffff3c) => 1,
-adapun => BARU ARRAY(0x1ffff6c) => 2,
-jatuh => BARU ARRAY(0x1ffff9c) => 1,
-kejaksaan => BARU ARRAY(0x1ffffcc) => 3,
-ditunda => BARU ARRAY(0x1fffffc) => 2,
-sampai => BARU ARRAY(0x200002c) => 1,
-pemkab => BARU ARRAY(0x200005c) => 1,
-bantul => BARU ARRAY(0x200008c) => 2,
-kamil => BARU ARRAY(0x20000bc) => 1,
-sby => BARU ARRAY(0x20000ec) => 3,
-bangka => BARU ARRAY(0x200011c) => 1,
-hasil => BARU ARRAY(0x200014c) => 1,
-selatan => BARU ARRAY(0x200017c) => 1,
-dilantik => BARU ARRAY(0x20001ac) => 1,
-terdiri => BARU ARRAY(0x20001dc) => 1,
-telah => BARU ARRAY(0x200020c) => 2,
-akan => BARU ARRAY(0x200023c) => 1,
-dpr => BARU ARRAY(0x200026c) => 9,
-bantuan => BARU ARRAY(0x200029c) => 1,
-komisi => BARU ARRAY(0x20002cc) => 2,
-umum => BARU ARRAY(0x20002fc) => 1,
-wali => BARU ARRAY(0x200032c) => 1,
-provinsi => BARU ARRAY(0x200035c) => 1,
-pasha => BARU ARRAY(0x200038c) => 1,
-penyandang => BARU ARRAY(0x20003bc) => 1,
-pemilu => BARU ARRAY(0x20003ec) => 1,
-juga => BARU ARRAY(0x200041c) => 3,
-sedangkan => BARU ARRAY(0x200044c) => 3,
-pernah => BARU ARRAY(0x200047c) => 3,
-bicara => BARU ARRAY(0x20004ac) => 1,
-menyeret => BARU ARRAY(0x20004dc) => 1,
-sepak => BARU ARRAY(0x200050c) => 1,
-dpd => BARU ARRAY(0x200053c) => 6,
-tengah => BARU ARRAY(0x200056c) => 1,
-pemberantasan => BARU ARRAY(0x200059c) => 1,
-adalah => BARU ARRAY(0x20005cc) => 4,
-jimmi => BARU ARRAY(0x20005fc) => 4,
-akhirnya => BARU ARRAY(0x200062c) => 1,
-terseret => BARU ARRAY(0x200065c) => 1,
-periode => BARU ARRAY(0x200068c) => 4,
-idham => BARU ARRAY(0x20006bc) => 2,
-yang => BARU ARRAY(0x20006ec) => 14,
-pinjaman => BARU ARRAY(0x200071c) => 2,
-tukar => BARU ARRAY(0x200074c) => 1,
-ditangguhkan => BARU ARRAY(0x200077c) => 5,
-bambang => BARU ARRAY(0x20007ac) => 1,
-husni => BARU ARRAY(0x20007dc) => 1,
-peresmiannya => BARU ARRAY(0x200080c) => 1,
-rincian => BARU ARRAY(0x200083c) => 1,
-rp => BARU ARRAY(0x200086c) => 1,
-presiden => BARU ARRAY(0x200089c) => 5,
-guling => BARU ARRAY(0x20008cc) => 1,
-merespon => BARU ARRAY(0x20008fc) => 1,
-di => BARU ARRAY(0x200428c) => 4,
-puskesmas => BARU ARRAY(0x20042bc) => 1,
-tentang => BARU ARRAY(0x20042ec) => 1,
-demokrat => BARU ARRAY(0x200431c) => 2,
-memang => BARU ARRAY(0x200434c) => 1,
-chaidir => BARU ARRAY(0x200437c) => 2,
-dalam => BARU ARRAY(0x20043ac) => 1,
-herdian => BARU ARRAY(0x20043dc) => 2,
-selasa => BARU ARRAY(0x200440c) => 2,
-sebelumnya => BARU ARRAY(0x200443c) => 1,
-korupsi => BARU ARRAY(0x200446c) => 10,
-untuk => BARU ARRAY(0x200449c) => 7,
-esdm => BARU ARRAY(0x20044cc) => 1,
-tempo => BARU ARRAY(0x20044fc) => 1,
-surat => BARU ARRAY(0x200452c) => 1,
-mengatakan => BARU ARRAY(0x200455c) => 1,
-lingkungan => BARU ARRAY(0x200458c) => 1,
-hukum => BARU ARRAY(0x20045bc) => 1,
-dugaan => BARU ARRAY(0x20045ec) => 2,
-integritas => BARU ARRAY(0x200461c) => 1,
-pemerintah => BARU ARRAY(0x200464c) => 2,
-negeri => BARU ARRAY(0x200467c) => 2,
-mendapatkan => BARU ARRAY(0x20046ac) => 1,
-dan => BARU ARRAY(0x20046dc) => 10,
-pdi => BARU ARRAY(0x200470c) => 1,
-ini => BARU ARRAY(0x200473c) => 2,
-tangerang => BARU ARRAY(0x200476c) => 1,
-menyandang => BARU ARRAY(0x200479c) => 3,
-anggota => BARU ARRAY(0x20047cc) => 12,
-diusulkan => BARU ARRAY(0x20047fc) => 3,
-ditangani => BARU ARRAY(0x200482c) => 4,
-permintaan => BARU ARRAY(0x200485c) => 3,
-bumd => BARU ARRAY(0x200488c) => 1,
-koosnadi => BARU ARRAY(0x20048bc) => 1,
-julian => BARU ARRAY(0x20048ec) => 3,
-nama => BARU ARRAY(0x200491c) => 4,
-sebelum => BARU ARRAY(0x200494c) => 1,
-ujarnya => BARU ARRAY(0x200497c) => 2,
-hanya => BARU ARRAY(0x20049ac) => 1,
-yudhoyono => BARU ARRAY(0x20049dc) => 1,
-zulkarnaen => BARU ARRAY(0x2004a0c) => 2,
-sementara => BARU ARRAY(0x2004a3c) => 3,
-terpilih => BARU ARRAY(0x2004a6c) => 11,
-wibisono => BARU ARRAY(0x2004a9c) => 1,
-sesuai => BARU ARRAY(0x2004acc) => 1,
-termasuk => BARU ARRAY(0x2004afc) => 1,
-ketiganya => BARU ARRAY(0x2004b2c) => 1,
-kini => BARU ARRAY(0x2004b5c) => 3,
-miliar => BARU ARRAY(0x2004b8c) => 1,
-idjie => BARU ARRAY(0x2004bbc) => 2,
-kpu => BARU ARRAY(0x2004bec) => 6,
-sebagai => BARU ARRAY(0x3830ec) => 1,
-direspon => BARU ARRAY(0x38311c) => 2,
-perjuangan => BARU ARRAY(0x38314c) => 1,
-barat => BARU ARRAY(0x38317c) => 4,
-istana => BARU ARRAY(0x3831ac) => 1,
-hibah => BARU ARRAY(0x3831dc) => 1,
-karena => BARU ARRAY(0x38320c) => 1,
-kasusnya => BARU ARRAY(0x38323c) => 2,
-jadi => BARU ARRAY(0x38326c) => 1,
-dewan => BARU ARRAY(0x38329c) => 1,
-aset => BARU ARRAY(0x3832cc) => 1,
-memberi => BARU ARRAY(0x2013fa4) => 1,
-diminta => BARU ARRAY(0x2013fd4) => 1,
-dana => BARU ARRAY(0x2014004) => 4,
-damianus => BARU ARRAY(0x2014034) => 1,
-daerah => BARU ARRAY(0x2014064) => 1,
-terhadap => BARU ARRAY(0x2014094) => 1,
-wacik => BARU ARRAY(0x20140c4) => 1,
-------------------TOT---------------------
-----------------1---------------------
-kepresidenan => SEBELUM ARRAY(0x1fe9b9c) => 1, SESUDAH ARRAY(0x1fe9b9c) => 1,1,
-mengusulkan => BARU ARRAY(0x20140f4) => 0,1,
-proses => BARU ARRAY(0x2000acc) => 0,2,
-samping => BARU ARRAY(0x2000b0c) => 0,1,
-pun => SEBELUM ARRAY(0x1ffdb44) => 1, SESUDAH ARRAY(0x1ffdb44) => 1,1,
-diucapkannya => BARU ARRAY(0x2000b3c) => 0,1,
-tersangka => SEBELUM ARRAY(0x1ffdb74) => 9, SESUDAH ARRAY(0x1ffdb74) => 9,7,
-tidak => SEBELUM ARRAY(0x1ffdc34) => 2, SESUDAH ARRAY(0x1ffdc34) => 2,2,
-sudah => SEBELUM ARRAY(0x1ffdc64) => 2, SESUDAH ARRAY(0x1ffdc64) => 2,3,
-usulan => BARU ARRAY(0x2000b6c) => 0,3,
-pemerasan => SEBELUM ARRAY(0x1ffdc94) => 1, SESUDAH ARRAY(0x1ffdc94) => 1,1,
-berstatus => BARU ARRAY(0x2000bcc) => 0,1,
-ke => SEBELUM ARRAY(0x1ffdde4) => 1, SESUDAH ARRAY(0x1ffdde4) => 1,1,
-dari => SEBELUM ARRAY(0x1ffde74) => 12, SESUDAH ARRAY(0x1ffde74) => 12,5,
-pembangunan => SEBELUM ARRAY(0x1ffdea4) => 1, SESUDAH ARRAY(0x1ffdea4) => 1,1,
-peraturan => BARU ARRAY(0x2000c34) => 0,2,
-tindakan => BARU ARRAY(0x2000ca4) => 0,2,
-kabinet => BARU ARRAY(0x2000cb4) => 0,1,
-kpk => BARU ARRAY(0x2000ce4) => 0,9,
-serta => BARU ARRAY(0x2000d24) => 0,1,
-terakhir => BARU ARRAY(0x2000d54) => 0,1,
-pihak => BARU ARRAY(0x2000d84) => 0,1,
-kertanegara => BARU ARRAY(0x2000db4) => 0,1,
-pada => SEBELUM ARRAY(0x1ffdf04) => 1, SESUDAH ARRAY(0x1ffdf04) => 1,1,
-wakil => SEBELUM ARRAY(0x1ffdf94) => 2, SESUDAH ARRAY(0x1ffdf94) => 2,2,
-daya => BARU ARRAY(0x2000de4) => 0,1,
-kepada => BARU ARRAY(0x2000e34) => 0,4,
-parlemen => BARU ARRAY(0x2000e64) => 0,1,
-mineral => BARU ARRAY(0x2000e94) => 0,1,
-hal => SEBELUM ARRAY(0x1ffdfc4) => 1, SESUDAH ARRAY(0x1ffdfc4) => 1,1,
-komisioner => BARU ARRAY(0x2000ec4) => 0,1,
-terjerat => SEBELUM ARRAY(0x1ffe024) => 1, SESUDAH ARRAY(0x1ffe024) => 1,1,
-sedang => BARU ARRAY(0x2000f04) => 0,1,
-waktu => BARU ARRAY(0x2000f44) => 0,1,
-pelantikan => SEBELUM ARRAY(0x1ffe0e4) => 4, SESUDAH ARRAY(0x1ffe0e4) => 4,6,
-dia => BARU ARRAY(0x2000f74) => 0,2,
-kementerian => SEBELUM ARRAY(0x1ffe174) => 1, SESUDAH ARRAY(0x1ffe174) => 1,1,
-lembaga => BARU ARRAY(0x2000fb4) => 0,3,
-sabtu => BARU ARRAY(0x2000ff4) => 0,1,
-dikabulkannya => BARU ARRAY(0x2001034) => 0,1,
-asal => BARU ARRAY(0x2001054) => 0,1,
-seorang => BARU ARRAY(0x2001074) => 0,1,
-undangan => BARU ARRAY(0x2001094) => 0,1,
-itu => SEBELUM ARRAY(0x1ffe1a4) => 6, SESUDAH ARRAY(0x1ffe1a4) => 6,4,
-soal => BARU ARRAY(0x20010c4) => 0,1,
-ditembuskan => BARU ARRAY(0x2001124) => 0,1,
-disampaikan => SEBELUM ARRAY(0x1ffe234) => 1, SESUDAH ARRAY(0x1ffe234) => 1,3,
-kasus => SEBELUM ARRAY(0x1ffe204) => 7, SESUDAH ARRAY(0x1ffe204) => 7,10,
-ucapkan => BARU ARRAY(0x2001154) => 0,1,
-banten => BARU ARRAY(0x20011a4) => 0,1,
-bertujuan => BARU ARRAY(0x20011d4) => 0,1,
-namun => SEBELUM ARRAY(0x1ffe294) => 1, SESUDAH ARRAY(0x1ffe294) => 1,1,
-kutai => BARU ARRAY(0x2001204) => 0,1,
-agar => SEBELUM ARRAY(0x1ffe2f4) => 1, SESUDAH ARRAY(0x1ffe2f4) => 1,1,
-diantaranya => BARU ARRAY(0x2001244) => 0,1,
-com => BARU ARRAY(0x2001284) => 0,2,
-kata => BARU ARRAY(0x20012b4) => 0,1,
-ketua => SEBELUM ARRAY(0x1ffe384) => 1, SESUDAH ARRAY(0x1ffe384) => 1,2,
-jelas => SEBELUM ARRAY(0x1ffe3e4) => 1, SESUDAH ARRAY(0x1ffe3e4) => 1,2,
-terlibat => BARU ARRAY(0x20012e4) => 0,1,
-melindungi => BARU ARRAY(0x2001334) => 0,1,
-jakarta => SEBELUM ARRAY(0x1ffe444) => 2, SESUDAH ARRAY(0x1ffe444) => 2,1,
-klub => SEBELUM ARRAY(0x1ffe474) => 1, SESUDAH ARRAY(0x1ffe474) => 1,1,
-oleh => SEBELUM ARRAY(0x1ffe4a4) => 3, SESUDAH ARRAY(0x1ffe4a4) => 3,1,
-upaya => BARU ARRAY(0x2001364) => 0,1,
-melakukan => BARU ARRAY(0x20013c4) => 0,2,
-rakyat => SEBELUM ARRAY(0x1ffe534) => 2, SESUDAH ARRAY(0x1ffe534) => 2,1,
-samawi => SEBELUM ARRAY(0x1ffe564) => 1, SESUDAH ARRAY(0x1ffe564) => 1,2,
-anggaran => SEBELUM ARRAY(0x1ffe5c4) => 1, SESUDAH ARRAY(0x1ffe5c4) => 1,1,
-kepercayaan => BARU ARRAY(0x20013f4) => 0,2,
-dengan => BARU ARRAY(0x2001454) => 0,3,
-kemungkinan => BARU ARRAY(0x2001484) => 0,1,
-badan => BARU ARRAY(0x20014b4) => 0,1,
-meminta => BARU ARRAY(0x20014e4) => 0,1,
-dprd => SEBELUM ARRAY(0x1ffe624) => 3, SESUDAH ARRAY(0x1ffe624) => 3,1,
-persiba => SEBELUM ARRAY(0x1ffe654) => 1, SESUDAH ARRAY(0x1ffe654) => 1,1,
-menteri => BARU ARRAY(0x2001514) => 0,1,
-penting => BARU ARRAY(0x2001564) => 0,1,
-diskusi => BARU ARRAY(0x2001594) => 0,1,
-sumpah => BARU ARRAY(0x20015c4) => 0,3,
-merupakan => BARU ARRAY(0x20015f4) => 0,5,
-hadar => BARU ARRAY(0x2001624) => 0,5,
-pdip => SEBELUM ARRAY(0x1fffccc) => 2, SESUDAH ARRAY(0x1fffccc) => 2,1,
-menduduki => BARU ARRAY(0x1ff824c) => 0,1,
-pemilihan => SEBELUM ARRAY(0x1fffcfc) => 1, SESUDAH ARRAY(0x1fffcfc) => 1,3,
-jero => SEBELUM ARRAY(0x1fffd5c) => 3, SESUDAH ARRAY(0x1fffd5c) => 3,5,
-partai => SEBELUM ARRAY(0x1fffd8c) => 3, SESUDAH ARRAY(0x1fffd8c) => 3,1,
-tersangkut => BARU ARRAY(0x1ff828c) => 0,1,
-status => SEBELUM ARRAY(0x1fffdbc) => 4, SESUDAH ARRAY(0x1fffdbc) => 4,1,
-dinyatakan => BARU ARRAY(0x1ff82ec) => 0,1,
-atas => BARU ARRAY(0x1ff832c) => 0,3,
-demikian => SEBELUM ARRAY(0x1fffe4c) => 1, SESUDAH ARRAY(0x1fffe4c) => 1,1,
-terduga => BARU ARRAY(0x1ff835c) => 0,1,
-posisi => BARU ARRAY(0x1ff839c) => 0,1,
-tahun => SEBELUM ARRAY(0x1fffeac) => 2, SESUDAH ARRAY(0x1fffeac) => 2,3,
-pria => BARU ARRAY(0x1ff83cc) => 0,1,
-pelantikannya => SEBELUM ARRAY(0x1ffff0c) => 6, SESUDAH ARRAY(0x1ffff0c) => 6,1,
-adapun => SEBELUM ARRAY(0x1ffff6c) => 2, SESUDAH ARRAY(0x1ffff6c) => 2,1,
-mengirimkan => BARU ARRAY(0x1ff840c) => 0,1,
-sebuah => BARU ARRAY(0x1ff845c) => 0,1,
-orang => BARU ARRAY(0x1ff848c) => 0,2,
-ditunda => SEBELUM ARRAY(0x1fffffc) => 2, SESUDAH ARRAY(0x1fffffc) => 2,2,
-publik => BARU ARRAY(0x1ff84bc) => 0,1,
-bantul => SEBELUM ARRAY(0x200008c) => 2, SESUDAH ARRAY(0x200008c) => 2,1,
-memproses => BARU ARRAY(0x1ff84fc) => 0,1,
-menyetujui => BARU ARRAY(0x1ff853c) => 0,1,
-perundangan => BARU ARRAY(0x1ff856c) => 0,1,
-dilantik => SEBELUM ARRAY(0x20001ac) => 1, SESUDAH ARRAY(0x20001ac) => 1,2,
-akan => SEBELUM ARRAY(0x200023c) => 1, SESUDAH ARRAY(0x200023c) => 1,6,
-apuy => BARU ARRAY(0x1ff859c) => 0,2,
-dpr => SEBELUM ARRAY(0x200026c) => 9, SESUDAH ARRAY(0x200026c) => 9,8,
-kami => BARU ARRAY(0x1ff85ec) => 0,1,
-punya => BARU ARRAY(0x1ff862c) => 0,1,
-komisi => SEBELUM ARRAY(0x20002cc) => 2, SESUDAH ARRAY(0x20002cc) => 2,5,
-umum => SEBELUM ARRAY(0x20002fc) => 1, SESUDAH ARRAY(0x20002fc) => 1,3,
-perbuatan => BARU ARRAY(0x1ff865c) => 0,2,
-atau => BARU ARRAY(0x1ff86ac) => 0,6,
-juga => SEBELUM ARRAY(0x200041c) => 3, SESUDAH ARRAY(0x200041c) => 3,2,
-lalu => BARU ARRAY(0x1ff86dc) => 0,1,
-ditanya => BARU ARRAY(0x1ff871c) => 0,1,
-operasional => BARU ARRAY(0x1ff874c) => 0,1,
-pemberantasan => SEBELUM ARRAY(0x200059c) => 1, SESUDAH ARRAY(0x200059c) => 1,3,
-citra => BARU ARRAY(0x1ff877c) => 0,1,
-pengawas => BARU ARRAY(0x1ff87bc) => 0,1,
-terdakwa => BARU ARRAY(0x1ff87ec) => 0,6,
-sekedar => BARU ARRAY(0x1ff881c) => 0,1,
-periode => SEBELUM ARRAY(0x200068c) => 4, SESUDAH ARRAY(0x200068c) => 4,1,
-idham => SEBELUM ARRAY(0x20006bc) => 2, SESUDAH ARRAY(0x20006bc) => 2,2,
-kehormatan => BARU ARRAY(0x1ff884c) => 0,1,
-prinsipnya => BARU ARRAY(0x1ff889c) => 0,1,
-yang => SEBELUM ARRAY(0x20006ec) => 14, SESUDAH ARRAY(0x20006ec) => 14,16,
-mantan => BARU ARRAY(0x1ff88cc) => 0,1,
-penundaan => BARU ARRAY(0x1ff890c) => 0,3,
-bambang => SEBELUM ARRAY(0x20007ac) => 1, SESUDAH ARRAY(0x20007ac) => 1,3,
-perwakilan => BARU ARRAY(0x1ff893c) => 0,2,
-nafis => BARU ARRAY(0x1ff897c) => 0,1,
-presiden => SEBELUM ARRAY(0x200089c) => 5, SESUDAH ARRAY(0x200089c) => 5,1,
-rendah => BARU ARRAY(0x1ff89ac) => 0,1,
-di => SEBELUM ARRAY(0x200428c) => 4, SESUDAH ARRAY(0x200428c) => 4,3,
-puskesmas => SEBELUM ARRAY(0x20042bc) => 1, SESUDAH ARRAY(0x20042bc) => 1,1,
-sumber => BARU ARRAY(0x1ff89ec) => 0,1,
-gumay => BARU ARRAY(0x1ff8a3c) => 0,1,
-menunda => BARU ARRAY(0x1ff8a6c) => 0,1,
-demokrat => SEBELUM ARRAY(0x200431c) => 2, SESUDAH ARRAY(0x200431c) => 2,1,
-kooperatif => BARU ARRAY(0x1fef92c) => 0,1,
-yaitu => BARU ARRAY(0x1fef96c) => 0,1,
-respon => BARU ARRAY(0x1fef99c) => 0,1,
-herdian => SEBELUM ARRAY(0x20043dc) => 2, SESUDAH ARRAY(0x20043dc) => 2,2,
-menilai => BARU ARRAY(0x1fef9cc) => 0,1,
-dalam => SEBELUM ARRAY(0x20043ac) => 1, SESUDAH ARRAY(0x20043ac) => 1,5,
-minggu => BARU ARRAY(0x1fefa0c) => 0,1,
-sebelumnya => SEBELUM ARRAY(0x200443c) => 1, SESUDAH ARRAY(0x200443c) => 1,1,
-korupsi => SEBELUM ARRAY(0x200446c) => 10, SESUDAH ARRAY(0x200446c) => 10,14,
-sendiri => BARU ARRAY(0x1fefa4c) => 0,4,
-mempercepat => BARU ARRAY(0x1fefa9c) => 0,1,
-senilai => BARU ARRAY(0x1fefacc) => 0,1,
-acara => BARU ARRAY(0x1ffd6f4) => 0,1,
-beberapa => BARU ARRAY(0x1ffd724) => 0,1,
-untuk => SEBELUM ARRAY(0x200449c) => 7, SESUDAH ARRAY(0x200449c) => 7,4,
-esdm => SEBELUM ARRAY(0x20044cc) => 1, SESUDAH ARRAY(0x20044cc) => 1,1,
-jogjakarta => BARU ARRAY(0x1ffd754) => 0,1,
-surat => SEBELUM ARRAY(0x200452c) => 1, SESUDAH ARRAY(0x200452c) => 1,3,
-mengatakan => SEBELUM ARRAY(0x200455c) => 1, SESUDAH ARRAY(0x200455c) => 1,1,
-singkat => BARU ARRAY(0x1ffd7a4) => 0,1,
-masyarakat => BARU ARRAY(0x1ffd7f4) => 0,1,
-kerja => BARU ARRAY(0x1ffd824) => 0,1,
-hukum => SEBELUM ARRAY(0x20045bc) => 1, SESUDAH ARRAY(0x20045bc) => 1,1,
-saat => BARU ARRAY(0x1ffd854) => 0,5,
-melawan => BARU ARRAY(0x1ffd894) => 0,2,
-dugaan => SEBELUM ARRAY(0x20045ec) => 2, SESUDAH ARRAY(0x20045ec) => 2,4,
-tutur => BARU ARRAY(0x1ffd8c4) => 0,1,
-widjojanto => BARU ARRAY(0x1ffd904) => 0,1,
-dan => SEBELUM ARRAY(0x20046dc) => 10, SESUDAH ARRAY(0x20046dc) => 10,7,
-ini => SEBELUM ARRAY(0x200473c) => 2, SESUDAH ARRAY(0x200473c) => 2,3,
-menyandang => SEBELUM ARRAY(0x200479c) => 3, SESUDAH ARRAY(0x200479c) => 3,1,
-anggota => SEBELUM ARRAY(0x20047cc) => 12, SESUDAH ARRAY(0x20047cc) => 12,12,
-permintaan => SEBELUM ARRAY(0x200485c) => 3, SESUDAH ARRAY(0x200485c) => 3,1,
-koosnadi => SEBELUM ARRAY(0x20048bc) => 1, SESUDAH ARRAY(0x20048bc) => 1,2,
-melanggar => BARU ARRAY(0x1ffd934) => 0,3,
-diketahui => BARU ARRAY(0x1ffd9c4) => 0,1,
-diduga => BARU ARRAY(0x2014124) => 0,1,
-menyatakan => BARU ARRAY(0x2014154) => 0,1,
-ditemui => BARU ARRAY(0x2014184) => 0,1,
-rupiah => BARU ARRAY(0x20141b4) => 0,1,
-pesan => BARU ARRAY(0x20141e4) => 0,1,
-dilakukan => BARU ARRAY(0x2014214) => 0,1,
-diharapkan => BARU ARRAY(0x2014244) => 0,1,
-miskinnya => BARU ARRAY(0x2014274) => 0,1,
-tersebut => BARU ARRAY(0x20142a4) => 0,3,
-terpilih => SEBELUM ARRAY(0x2004a6c) => 11, SESUDAH ARRAY(0x2004a6c) => 11,11,
-marthen => BARU ARRAY(0x20142d4) => 0,2,
-undang => BARU ARRAY(0x2014314) => 0,2,
-bawaslu => BARU ARRAY(0x2014344) => 0,1,
-melalui => BARU ARRAY(0x2014374) => 0,2,
-dapil => BARU ARRAY(0x20143a4) => 0,1,
-termasuk => SEBELUM ARRAY(0x2004afc) => 1, SESUDAH ARRAY(0x2004afc) => 1,1,
-kpu => SEBELUM ARRAY(0x2004bec) => 6, SESUDAH ARRAY(0x2004bec) => 6,4,
-sebagai => SEBELUM ARRAY(0x3830ec) => 1, SESUDAH ARRAY(0x3830ec) => 1,5,
-bali => BARU ARRAY(0x20143d4) => 0,1,
-hibah => SEBELUM ARRAY(0x3831dc) => 1, SESUDAH ARRAY(0x3831dc) => 1,1,
-karena => SEBELUM ARRAY(0x38320c) => 1, SESUDAH ARRAY(0x38320c) => 1,1,
-menurut => BARU ARRAY(0x2019ce4) => 0,2,
-akibat => BARU ARRAY(0x2019d34) => 0,1,
-dewan => SEBELUM ARRAY(0x38329c) => 1, SESUDAH ARRAY(0x38329c) => 1,4,
-sumpahnya => BARU ARRAY(0x2019d64) => 0,1,
-dinilai => BARU ARRAY(0x2019da4) => 0,1,
-sepakbola => BARU ARRAY(0x2019dd4) => 0,1,
-mempermudah => BARU ARRAY(0x2019e04) => 0,1,
-diminta => SEBELUM ARRAY(0x2013fd4) => 1, SESUDAH ARRAY(0x2013fd4) => 1,1,
-dana => SEBELUM ARRAY(0x2014004) => 4, SESUDAH ARRAY(0x2014004) => 4,2,
-tutup => BARU ARRAY(0x2019e34) => 0,1,
-bagi => BARU ARRAY(0x2019e84) => 0,1,
-sepakati => BARU ARRAY(0x2019eb4) => 0,1,
-energi => BARU ARRAY(0x2019ee4) => 0,1,
-jika => BARU ARRAY(0x2019f14) => 0,2,
-triliun => BARU ARRAY(0x2019f44) => 0,1,
-terhadap => SEBELUM ARRAY(0x2014094) => 1, SESUDAH ARRAY(0x2014094) => 1,3,
-wacik => SEBELUM ARRAY(0x20140c4) => 1, SESUDAH ARRAY(0x20140c4) => 1,3,
-merusak => BARU ARRAY(0x2019f74) => 0,1,
-kronosnews => BARU ARRAY(0x2019fc4) => 0,2,
-------------------TOT---------------------
-----------------2---------------------
-penyidikan => BARU ARRAY(0x2019ff4) => 0,0,1,
-corruption => BARU ARRAY(0x2019b64) => 0,0,1,
-rantung => BARU ARRAY(0x2019b94) => 0,0,1,
-ternyata => BARU ARRAY(0x2019bc4) => 0,0,1,
-tingkatan => BARU ARRAY(0x2019bf4) => 0,0,1,
-proses => SEBELUM ARRAY(0x2000acc) => 0,2, SESUDAH ARRAY(0x2000acc) => 0,2,4,
-golkar => SEBELUM ARRAY(0x1ffd9f4) => 2, SESUDAH ARRAY(0x1ffd9f4) => 2,0,2,
-para => SEBELUM ARRAY(0x1ffda24) => 1, SESUDAH ARRAY(0x1ffda24) => 1,0,4,
-politisi => BARU ARRAY(0x2019c24) => 0,0,1,
-sedianya => BARU ARRAY(0x20016e4) => 0,0,1,
-harianto => BARU ARRAY(0x2014404) => 0,0,1,
-papua => SEBELUM ARRAY(0x1ffda84) => 4, SESUDAH ARRAY(0x1ffda84) => 4,0,17,
-icw => BARU ARRAY(0x2014434) => 0,0,3,
-oktober => BARU ARRAY(0x2014474) => 0,0,1,
-menjadi => SEBELUM ARRAY(0x1ffdba4) => 6, SESUDAH ARRAY(0x1ffdba4) => 6,0,2,
-– => BARU ARRAY(0x20144a4) => 0,0,1,
-tercatat => BARU ARRAY(0x20144e4) => 0,0,1,
-tidak => SEBELUM ARRAY(0x1ffdc34) => 2,2, SESUDAH ARRAY(0x1ffdc34) => 2,2,3,
-sudah => SEBELUM ARRAY(0x1ffdc64) => 2,3, SESUDAH ARRAY(0x1ffdc64) => 2,3,4,
-hingga => BARU ARRAY(0x2014514) => 0,0,1,
-mengajukan => SEBELUM ARRAY(0x1ffdcf4) => 1, SESUDAH ARRAY(0x1ffdcf4) => 1,0,1,
-yumthe => BARU ARRAY(0x2014564) => 0,0,1,
-pengadilan => BARU ARRAY(0x20145a4) => 0,0,3,
-ke => SEBELUM ARRAY(0x1ffdde4) => 1,1, SESUDAH ARRAY(0x1ffdde4) => 1,1,1,
-dari => SEBELUM ARRAY(0x1ffde74) => 12,5, SESUDAH ARRAY(0x1ffde74) => 12,5,12,
-tipikor => BARU ARRAY(0x20145d4) => 0,0,1,
-pembangunan => SEBELUM ARRAY(0x1ffdea4) => 1,1, SESUDAH ARRAY(0x1ffdea4) => 1,1,1,
-serta => SEBELUM ARRAY(0x2000d24) => 0,1, SESUDAH ARRAY(0x2000d24) => 0,1,1,
-kesepuluh => BARU ARRAY(0x2014624) => 0,0,2,
-proyek => BARU ARRAY(0x2014674) => 0,0,1,
-pada => SEBELUM ARRAY(0x1ffdf04) => 1,1, SESUDAH ARRAY(0x1ffdf04) => 1,1,3,
-layak => BARU ARRAY(0x20146a4) => 0,0,1,
-kasasi => BARU ARRAY(0x20146e4) => 0,0,2,
-bersalah => BARU ARRAY(0x2014714) => 0,0,1,
-saja => SEBELUM ARRAY(0x1ffdf64) => 1, SESUDAH ARRAY(0x1ffdf64) => 1,0,1,
-vertikal => BARU ARRAY(0x2014744) => 0,0,1,
-wakil => SEBELUM ARRAY(0x1ffdf94) => 2,2, SESUDAH ARRAY(0x1ffdf94) => 2,2,3,
-kepada => SEBELUM ARRAY(0x2000e34) => 0,4, SESUDAH ARRAY(0x2000e34) => 0,4,1,
-tentu => BARU ARRAY(0x2014784) => 0,0,1,
-ri => SEBELUM ARRAY(0x1ffdff4) => 2, SESUDAH ARRAY(0x1ffdff4) => 2,0,1,
-merilis => BARU ARRAY(0x20147d4) => 0,0,1,
-terjerat => SEBELUM ARRAY(0x1ffe024) => 1,1, SESUDAH ARRAY(0x1ffe024) => 1,1,2,
-pelantikan => SEBELUM ARRAY(0x1ffe0e4) => 4,6, SESUDAH ARRAY(0x1ffe0e4) => 4,6,2,
-watch => BARU ARRAY(0x2014814) => 0,0,1,
-ada => SEBELUM ARRAY(0x1ffe114) => 1, SESUDAH ARRAY(0x1ffe114) => 1,0,2,
-persidangan => BARU ARRAY(0x2014864) => 0,0,1,
-rencana => BARU ARRAY(0x20148a4) => 0,0,1,
-menjalani => BARU ARRAY(0x20148d4) => 0,0,1,
-lembaga => SEBELUM ARRAY(0x2000fb4) => 0,3, SESUDAH ARRAY(0x2000fb4) => 0,3,1,
-rumah => BARU ARRAY(0x2014904) => 0,0,1,
-jayapura => BARU ARRAY(0x2014944) => 0,0,1,
-divonis => BARU ARRAY(0x2014974) => 0,0,3,
-itu => SEBELUM ARRAY(0x1ffe1a4) => 6,4, SESUDAH ARRAY(0x1ffe1a4) => 6,4,2,
-mendatang => BARU ARRAY(0x20149a4) => 0,0,1,
-kembali => BARU ARRAY(0x20149e4) => 0,0,1,
-dirinya => BARU ARRAY(0x2014a14) => 0,0,1,
-kasus => SEBELUM ARRAY(0x1ffe204) => 7,10, SESUDAH ARRAY(0x1ffe204) => 7,10,5,
-namun => SEBELUM ARRAY(0x1ffe294) => 1,1, SESUDAH ARRAY(0x1ffe294) => 1,1,1,
-agar => SEBELUM ARRAY(0x1ffe2f4) => 1,1, SESUDAH ARRAY(0x1ffe2f4) => 1,1,2,
-ataukah => BARU ARRAY(0x2014a44) => 0,0,1,
-origenes => BARU ARRAY(0x2014aa4) => 0,0,1,
-rabu => BARU ARRAY(0x2014ad4) => 0,0,1,
-apbd => BARU ARRAY(0x2014b04) => 0,0,3,
-com => SEBELUM ARRAY(0x2001284) => 0,2, SESUDAH ARRAY(0x2001284) => 0,2,1,
-ketua => SEBELUM ARRAY(0x1ffe384) => 1,2, SESUDAH ARRAY(0x1ffe384) => 1,2,4,
-jakarta => SEBELUM ARRAY(0x1ffe444) => 2,1, SESUDAH ARRAY(0x1ffe444) => 2,1,1,
-mencampuri => BARU ARRAY(0x2014b34) => 0,0,1,
-oleh => SEBELUM ARRAY(0x1ffe4a4) => 3,1, SESUDAH ARRAY(0x1ffe4a4) => 3,1,2,
-mrpb => BARU ARRAY(0x2014b94) => 0,0,4,
-yenu => BARU ARRAY(0x2014bd4) => 0,0,1,
-tinggal => BARU ARRAY(0x2014c04) => 0,0,1,
-peneliti => BARU ARRAY(0x2014c34) => 0,0,1,
-anehnya => BARU ARRAY(0x2014c64) => 0,0,1,
-melakukan => SEBELUM ARRAY(0x20013c4) => 0,2, SESUDAH ARRAY(0x20013c4) => 0,2,2,
-aminadab => BARU ARRAY(0x2014c94) => 0,0,1,
-fakta => BARU ARRAY(0x2014cd4) => 0,0,1,
-divonisi => BARU ARRAY(0x2014d04) => 0,0,1,
-ma => BARU ARRAY(0x2014d34) => 0,0,2,
-lantaran => BARU ARRAY(0x2014d64) => 0,0,1,
-mahkamah => BARU ARRAY(0x2014d94) => 0,0,2,
-rakyat => SEBELUM ARRAY(0x1ffe534) => 2,1, SESUDAH ARRAY(0x1ffe534) => 2,1,4,
-dengan => SEBELUM ARRAY(0x2001454) => 0,3, SESUDAH ARRAY(0x2001454) => 0,3,2,
-kekuatan => BARU ARRAY(0x2014dc4) => 0,0,1,
-dprd => SEBELUM ARRAY(0x1ffe624) => 3,1, SESUDAH ARRAY(0x1ffe624) => 3,1,5,
-sanusi => BARU ARRAY(0x2014e14) => 0,0,1,
-nauw => BARU ARRAY(0x2014e54) => 0,0,2,
-dprp => BARU ARRAY(0x2014e84) => 0,0,3,
-zonadamai => BARU ARRAY(0x2014eb4) => 0,0,1,
-abdul => BARU ARRAY(0x2014ee4) => 0,0,1,
-partai => SEBELUM ARRAY(0x1fffd8c) => 3,1, SESUDAH ARRAY(0x1fffd8c) => 3,1,6,
-tersangkut => SEBELUM ARRAY(0x1ff828c) => 0,1, SESUDAH ARRAY(0x1ff828c) => 0,1,2,
-status => SEBELUM ARRAY(0x1fffdbc) => 4,1, SESUDAH ARRAY(0x1fffdbc) => 4,1,2,
-berbagai => BARU ARRAY(0x2014f14) => 0,0,1,
-harus => BARU ARRAY(0x1fcb16c) => 0,0,1,
-hehanussa => BARU ARRAY(0x1fcb19c) => 0,0,1,
-selaku => BARU ARRAY(0x1fcb1cc) => 0,0,1,
-dituduhkan => BARU ARRAY(0x1fcb1fc) => 0,0,1,
-dosa => BARU ARRAY(0x1fcb22c) => 0,0,1,
-tahun => SEBELUM ARRAY(0x1fffeac) => 2,3, SESUDAH ARRAY(0x1fffeac) => 2,3,5,
-pelantikannya => SEBELUM ARRAY(0x1ffff0c) => 6,1, SESUDAH ARRAY(0x1ffff0c) => 6,1,1,
-tanggal => BARU ARRAY(0x1fcb25c) => 0,0,1,
-dua => BARU ARRAY(0x1fcb2ac) => 0,0,1,
-bulan => BARU ARRAY(0x1fcb2dc) => 0,0,1,
-orang => SEBELUM ARRAY(0x1ff848c) => 0,2, SESUDAH ARRAY(0x1ff848c) => 0,2,7,
-kejaksaan => SEBELUM ARRAY(0x1ffffcc) => 3, SESUDAH ARRAY(0x1ffffcc) => 3,0,2,
-ditunda => SEBELUM ARRAY(0x1fffffc) => 2,2, SESUDAH ARRAY(0x1fffffc) => 2,2,1,
-tinggi => BARU ARRAY(0x1fcb30c) => 0,0,3,
-dilantik => SEBELUM ARRAY(0x20001ac) => 1,2, SESUDAH ARRAY(0x20001ac) => 1,2,3,
-akan => SEBELUM ARRAY(0x200023c) => 1,6, SESUDAH ARRAY(0x200023c) => 1,6,1,
-berang => BARU ARRAY(0x1fcb36c) => 0,0,1,
-asmuruf => BARU ARRAY(0x2001714) => 0,0,1,
-dpr => SEBELUM ARRAY(0x200026c) => 9,8, SESUDAH ARRAY(0x200026c) => 9,8,8,
-politikus => BARU ARRAY(0x2001744) => 0,0,1,
-kantor => BARU ARRAY(0x2001784) => 0,0,1,
-adolf => BARU ARRAY(0x20017b4) => 0,0,1,
-provinsi => SEBELUM ARRAY(0x200035c) => 1, SESUDAH ARRAY(0x200035c) => 1,0,1,
-pemilu => SEBELUM ARRAY(0x20003ec) => 1, SESUDAH ARRAY(0x20003ec) => 1,0,1,
-ia => BARU ARRAY(0x20017e4) => 0,0,2,
-adalah => SEBELUM ARRAY(0x20005cc) => 4, SESUDAH ARRAY(0x20005cc) => 4,0,3,
-terdakwa => SEBELUM ARRAY(0x1ff87ec) => 0,6, SESUDAH ARRAY(0x1ff87ec) => 0,6,4,
-erick => BARU ARRAY(0x2001834) => 0,0,1,
-periode => SEBELUM ARRAY(0x200068c) => 4,1, SESUDAH ARRAY(0x200068c) => 4,1,3,
-instansi => BARU ARRAY(0x2001884) => 0,0,1,
-tetap => BARU ARRAY(0x20018c4) => 0,0,1,
-yang => SEBELUM ARRAY(0x20006ec) => 14,16, SESUDAH ARRAY(0x20006ec) => 14,16,7,
-wilayah => BARU ARRAY(0x20018f4) => 0,0,1,
-membuat => BARU ARRAY(0x2001934) => 0,0,1,
-imanuel => BARU ARRAY(0x2001964) => 0,0,1,
-tapi => BARU ARRAY(0x2001984) => 0,0,2,
-menyerukan => BARU ARRAY(0x20019c4) => 0,0,1,
-kompasiana => BARU ARRAY(0x20019f4) => 0,0,1,
-rp => SEBELUM ARRAY(0x200086c) => 1, SESUDAH ARRAY(0x200086c) => 1,0,1,
-mempunyai => BARU ARRAY(0x2001a34) => 0,0,1,
-di => SEBELUM ARRAY(0x200428c) => 4,3, SESUDAH ARRAY(0x200428c) => 4,3,3,
-bisa => BARU ARRAY(0x2001a64) => 0,0,1,
-demokrat => SEBELUM ARRAY(0x200431c) => 2,1, SESUDAH ARRAY(0x200431c) => 2,1,4,
-inkracht => BARU ARRAY(0x2001aa4) => 0,0,1,
-dulu => BARU ARRAY(0x2001ae4) => 0,0,1,
-dalam => SEBELUM ARRAY(0x20043ac) => 1,5, SESUDAH ARRAY(0x20043ac) => 1,5,2,
-legislatif => BARU ARRAY(0x2001b14) => 0,0,1,
-mengingat => BARU ARRAY(0x2001b54) => 0,0,1,
-korupsi => SEBELUM ARRAY(0x200446c) => 10,14, SESUDAH ARRAY(0x200446c) => 10,14,6,
-penggunaan => BARU ARRAY(0x2001b84) => 0,0,1,
-untuk => SEBELUM ARRAY(0x200449c) => 7,4, SESUDAH ARRAY(0x200449c) => 7,4,1,
-mengatakan => SEBELUM ARRAY(0x200455c) => 1,1, SESUDAH ARRAY(0x200455c) => 1,1,1,
-masih => BARU ARRAY(0x2001bc4) => 0,0,4,
-masyarakat => SEBELUM ARRAY(0x1ffd7f4) => 0,1, SESUDAH ARRAY(0x1ffd7f4) => 0,1,1,
-terkait => BARU ARRAY(0x1fec334) => 0,0,1,
-irawan => BARU ARRAY(0x1fec374) => 0,0,1,
-hukum => SEBELUM ARRAY(0x20045bc) => 1,1, SESUDAH ARRAY(0x20045bc) => 1,1,5,
-hanura => BARU ARRAY(0x1fec3a4) => 0,0,1,
-saat => SEBELUM ARRAY(0x1ffd854) => 0,5, SESUDAH ARRAY(0x1ffd854) => 0,5,4,
-dugaan => SEBELUM ARRAY(0x20045ec) => 2,4, SESUDAH ARRAY(0x20045ec) => 2,4,1,
-pemerintah => SEBELUM ARRAY(0x200464c) => 2, SESUDAH ARRAY(0x200464c) => 2,0,3,
-max => BARU ARRAY(0x1fec3e4) => 0,0,1,
-dan => SEBELUM ARRAY(0x20046dc) => 10,7, SESUDAH ARRAY(0x20046dc) => 10,7,7,
-ini => SEBELUM ARRAY(0x200473c) => 2,3, SESUDAH ARRAY(0x200473c) => 2,3,6,
-anggota => SEBELUM ARRAY(0x20047cc) => 12,12, SESUDAH ARRAY(0x20047cc) => 12,12,9,
-maupun => BARU ARRAY(0x2003c4c) => 0,0,1,
-publikasi => BARU ARRAY(0x2003cdc) => 0,0,1,
-konsultasi => BARU ARRAY(0x2003d0c) => 0,0,1,
-terpidana => BARU ARRAY(0x2003d1c) => 0,0,1,
-biaya => BARU ARRAY(0x2003d4c) => 0,0,1,
-nama => SEBELUM ARRAY(0x200491c) => 4, SESUDAH ARRAY(0x200491c) => 4,0,3,
-sebelum => SEBELUM ARRAY(0x200494c) => 1, SESUDAH ARRAY(0x200494c) => 1,0,2,
-belanja => BARU ARRAY(0x2003d7c) => 0,0,1,
-john => BARU ARRAY(0x2003dcc) => 0,0,3,
-hanya => SEBELUM ARRAY(0x20049ac) => 1, SESUDAH ARRAY(0x20049ac) => 1,0,1,
-diduga => SEBELUM ARRAY(0x2014124) => 0,1, SESUDAH ARRAY(0x2014124) => 0,1,1,
-indonesia => BARU ARRAY(0x2003dfc) => 0,0,1,
-achmaddari => BARU ARRAY(0x2003e4c) => 0,0,1,
-januari => BARU ARRAY(0x2003e7c) => 0,0,1,
-rekomendasi => BARU ARRAY(0x2003eac) => 0,0,1,
-urusan => BARU ARRAY(0x2003edc) => 0,0,1,
-tersebut => SEBELUM ARRAY(0x20142a4) => 0,3, SESUDAH ARRAY(0x20142a4) => 0,3,5,
-mereka => BARU ARRAY(0x2003f0c) => 0,0,6,
-penjara => BARU ARRAY(0x2003f4c) => 0,0,3,
-terpilih => SEBELUM ARRAY(0x2004a6c) => 11,11, SESUDAH ARRAY(0x2004a6c) => 11,11,2,
-rahaningmas => BARU ARRAY(0x2003f7c) => 0,0,1,
-penggelapan => BARU ARRAY(0x2003fbc) => 0,0,1,
-fiktif => BARU ARRAY(0x2003fec) => 0,0,1,
-vitalis => BARU ARRAY(0x200401c) => 0,0,1,
-merujuk => BARU ARRAY(0x200404c) => 0,0,1,
-menyelewengkan => BARU ARRAY(0x200407c) => 0,0,1,
-september => BARU ARRAY(0x20040ac) => 0,0,2,
-melalui => SEBELUM ARRAY(0x2014374) => 0,2, SESUDAH ARRAY(0x2014374) => 0,2,1,
-gerindra => BARU ARRAY(0x20040dc) => 0,0,1,
-ibo => BARU ARRAY(0x200411c) => 0,0,3,
-mengingatkan => BARU ARRAY(0x200414c) => 0,0,1,
-menunggu => BARU ARRAY(0x200417c) => 0,0,1,
-miliar => SEBELUM ARRAY(0x2004b8c) => 1, SESUDAH ARRAY(0x2004b8c) => 1,0,1,
-sebagai => SEBELUM ARRAY(0x3830ec) => 1,5, SESUDAH ARRAY(0x3830ec) => 1,5,3,
-setela => BARU ARRAY(0x20041ac) => 0,0,1,
-barat => SEBELUM ARRAY(0x38317c) => 4, SESUDAH ARRAY(0x38317c) => 4,0,7,
-apakah => BARU ARRAY(0x201c50c) => 0,0,1,
-karena => SEBELUM ARRAY(0x38320c) => 1,1, SESUDAH ARRAY(0x38320c) => 1,1,2,
-april => BARU ARRAY(0x201c54c) => 0,0,1,
-menurut => SEBELUM ARRAY(0x2019ce4) => 0,2, SESUDAH ARRAY(0x2019ce4) => 0,2,1,
-majelis => BARU ARRAY(0x201c58c) => 0,0,2,
-menyarankan => BARU ARRAY(0x201c5cc) => 0,0,1,
-agung => BARU ARRAY(0x201c5fc) => 0,0,2,
-pkb => BARU ARRAY(0x201c62c) => 0,0,2,
-inilah => BARU ARRAY(0x201c65c) => 0,0,1,
-terdata => BARU ARRAY(0x201c68c) => 0,0,1,
-pidana => BARU ARRAY(0x201c6bc) => 0,0,2,
-hakim => BARU ARRAY(0x201c6ec) => 0,0,1,
-bagi => SEBELUM ARRAY(0x2019e84) => 0,1, SESUDAH ARRAY(0x2019e84) => 0,1,2,
-dana => SEBELUM ARRAY(0x2014004) => 4,2, SESUDAH ARRAY(0x2014004) => 4,2,2,
-berikut => BARU ARRAY(0x201c71c) => 0,0,1,
-putusan => BARU ARRAY(0x201c76c) => 0,0,2,
-roberth => BARU ARRAY(0x201c79c) => 0,0,1,
-melianus => BARU ARRAY(0x201c7cc) => 0,0,1,
-ade => BARU ARRAY(0x201c7fc) => 0,0,1,
-------------------TOT---------------------
+corruption      => 3 | 0 0 1 |
+rantung         => 3 | 0 0 1 |
+ternyata        => 3 | 0 0 1 |
+tingkatan       => 3 | 0 0 1 |
+proses          => 3 | 0 2 4 |
+para            => 3 | 1 0 4 |
+golkar          => 3 | 2 0 2 |
+politisi        => 3 | 0 0 1 |
+papua           => 3 | 4 0 17 |
+pun             => 2 | 1 1 |
+ingin           => 1 | 1 |
+oktober         => 3 | 0 0 1 |
+diterima        => 1 | 1 |
+menjadi         => 3 | 6 0 2 |
+keputusan       => 1 | 1 |
+sudah           => 3 | 2 3 4 |
+rinci           => 1 | 1 |
+berstatus       => 2 | 0 1 |
+mengajukan      => 3 | 1 0 1 |
+jawa            => 1 | 1 |
+keppres         => 1 | 2 |
+ke              => 3 | 1 1 1 |
+tipikor         => 3 | 0 0 1 |
+peraturan       => 2 | 0 2 |
+kpk             => 2 | 0 9 |
+kesepuluh       => 3 | 0 0 2 |
+serta           => 3 | 0 1 1 |
+proyek          => 3 | 0 0 1 |
+kertanegara     => 2 | 0 1 |
+layak           => 3 | 0 0 1 |
+kota            => 1 | 2 |
+wakil           => 3 | 2 2 3 |
+tentu           => 3 | 0 0 1 |
+kepada          => 3 | 0 4 1 |
+daya            => 2 | 0 1 |
+parlemen        => 2 | 0 1 |
+hal             => 2 | 1 1 |
+ri              => 3 | 2 0 1 |
+merilis         => 3 | 0 0 1 |
+komisioner      => 2 | 0 1 |
+terjerat        => 3 | 1 1 2 |
+pelantikan      => 3 | 4 6 2 |
+negara          => 1 | 1 |
+ada             => 3 | 1 0 2 |
+rencana         => 3 | 0 0 1 |
+lembaga         => 3 | 0 3 1 |
+divonis         => 3 | 0 0 3 |
+jayapura        => 3 | 0 0 1 |
+sabtu           => 2 | 0 1 |
+seorang         => 2 | 0 1 |
+kembali         => 3 | 0 0 1 |
+catatan         => 1 | 1 |
+ucapkan         => 2 | 0 1 |
+banten          => 2 | 0 1 |
+kutai           => 2 | 0 1 |
+mengeluarkan    => 1 | 1 |
+apbd            => 3 | 0 0 3 |
+rabu            => 3 | 0 0 1 |
+origenes        => 3 | 0 0 1 |
+com             => 3 | 0 2 1 |
+menjerat        => 1 | 1 |
+hari            => 1 | 3 |
+jelas           => 2 | 1 2 |
+menyebut        => 1 | 1 |
+melindungi      => 2 | 0 1 |
+terlibat        => 2 | 0 1 |
+mencampuri      => 3 | 0 0 1 |
+klub            => 2 | 1 1 |
+mrpb            => 3 | 0 0 4 |
+upaya           => 2 | 0 1 |
+peneliti        => 3 | 0 0 1 |
+tinggal         => 3 | 0 0 1 |
+aminadab        => 3 | 0 0 1 |
+melakukan       => 3 | 0 2 2 |
+bola            => 1 | 1 |
+ma              => 3 | 0 0 2 |
+mahkamah        => 3 | 0 0 2 |
+lantaran        => 3 | 0 0 1 |
+rakyat          => 3 | 2 1 4 |
+anggaran        => 2 | 1 1 |
+kekuatan        => 3 | 0 0 1 |
+dengan          => 3 | 0 3 2 |
+kepercayaan     => 2 | 0 2 |
+kemungkinan     => 2 | 0 1 |
+meminta         => 2 | 0 1 |
+dprd            => 3 | 3 1 5 |
+sanusi          => 3 | 0 0 1 |
+ditetapkan      => 1 | 1 |
+iqbal           => 1 | 2 |
+nauw            => 3 | 0 0 2 |
+diskusi         => 2 | 0 1 |
+merupakan       => 2 | 0 5 |
+sumpah          => 2 | 0 3 |
+rencananya      => 1 | 1 |
+hadar           => 2 | 0 5 |
+pemilihan       => 2 | 1 3 |
+zonadamai       => 3 | 0 0 1 |
+dprp            => 3 | 0 0 3 |
+abdul           => 3 | 0 0 1 |
+partai          => 3 | 3 1 6 |
+berbagai        => 3 | 0 0 1 |
+status          => 3 | 4 1 2 |
+hehanussa       => 3 | 0 0 1 |
+harus           => 3 | 0 0 1 |
+dosa            => 3 | 0 0 1 |
+dituduhkan      => 3 | 0 0 1 |
+demikian        => 2 | 1 1 |
+menegakkan      => 1 | 1 |
+posisi          => 2 | 0 1 |
+terduga         => 2 | 0 1 |
+tahun           => 3 | 2 3 5 |
+pelantikannya   => 3 | 6 1 1 |
+langsung        => 1 | 1 |
+jafar           => 1 | 1 |
+bulan           => 3 | 0 0 1 |
+orang           => 3 | 0 2 7 |
+kejaksaan       => 3 | 3 0 2 |
+publik          => 2 | 0 1 |
+bantul          => 2 | 2 1 |
+menyetujui      => 2 | 0 1 |
+hasil           => 1 | 1 |
+selatan         => 1 | 1 |
+perundangan     => 2 | 0 1 |
+tinggi          => 3 | 0 0 3 |
+akan            => 3 | 1 6 1 |
+asmuruf         => 3 | 0 0 1 |
+apuy            => 2 | 0 2 |
+dpr             => 3 | 9 8 8 |
+bantuan         => 1 | 1 |
+komisi          => 2 | 2 5 |
+perbuatan       => 2 | 0 2 |
+atau            => 2 | 0 6 |
+pemilu          => 3 | 1 0 1 |
+ia              => 3 | 0 0 2 |
+sedangkan       => 1 | 3 |
+ditanya         => 2 | 0 1 |
+bicara          => 1 | 1 |
+operasional     => 2 | 0 1 |
+dpd             => 1 | 6 |
+tengah          => 1 | 1 |
+pemberantasan   => 2 | 1 3 |
+citra           => 2 | 0 1 |
+terseret        => 1 | 1 |
+erick           => 3 | 0 0 1 |
+periode         => 3 | 4 1 3 |
+instansi        => 3 | 0 0 1 |
+kehormatan      => 2 | 0 1 |
+yang            => 3 | 14 16 7 |
+mantan          => 2 | 0 1 |
+pinjaman        => 1 | 2 |
+wilayah         => 3 | 0 0 1 |
+penundaan       => 2 | 0 3 |
+tapi            => 3 | 0 0 2 |
+imanuel         => 3 | 0 0 1 |
+ditangguhkan    => 1 | 5 |
+perwakilan      => 2 | 0 2 |
+kompasiana      => 3 | 0 0 1 |
+husni           => 1 | 1 |
+presiden        => 2 | 5 1 |
+mempunyai       => 3 | 0 0 1 |
+merespon        => 1 | 1 |
+sumber          => 2 | 0 1 |
+menunda         => 2 | 0 1 |
+demokrat        => 3 | 2 1 4 |
+tentang         => 1 | 1 |
+inkracht        => 3 | 0 0 1 |
+memang          => 1 | 1 |
+respon          => 2 | 0 1 |
+yaitu           => 2 | 0 1 |
+menilai         => 2 | 0 1 |
+selasa          => 1 | 2 |
+dalam           => 3 | 1 5 2 |
+chaidir         => 1 | 2 |
+minggu          => 2 | 0 1 |
+legislatif      => 3 | 0 0 1 |
+korupsi         => 3 | 10 14 6 |
+penggunaan      => 3 | 0 0 1 |
+senilai         => 2 | 0 1 |
+beberapa        => 2 | 0 1 |
+jogjakarta      => 2 | 0 1 |
+esdm            => 2 | 1 1 |
+masih           => 3 | 0 0 4 |
+irawan          => 3 | 0 0 1 |
+kerja           => 2 | 0 1 |
+hukum           => 3 | 1 1 5 |
+integritas      => 1 | 1 |
+pemerintah      => 3 | 2 0 3 |
+widjojanto      => 2 | 0 1 |
+max             => 3 | 0 0 1 |
+pdi             => 1 | 1 |
+diusulkan       => 1 | 3 |
+anggota         => 3 | 12 12 9 |
+maupun          => 3 | 0 0 1 |
+koosnadi        => 2 | 1 2 |
+bumd            => 1 | 1 |
+publikasi       => 3 | 0 0 1 |
+terpidana       => 3 | 0 0 1 |
+sebelum         => 3 | 1 0 2 |
+ujarnya         => 1 | 2 |
+john            => 3 | 0 0 3 |
+melanggar       => 2 | 0 3 |
+hanya           => 3 | 1 0 1 |
+menyatakan      => 2 | 0 1 |
+diharapkan      => 2 | 0 1 |
+dilakukan       => 2 | 0 1 |
+pesan           => 2 | 0 1 |
+zulkarnaen      => 1 | 2 |
+penjara         => 3 | 0 0 3 |
+fiktif          => 3 | 0 0 1 |
+rahaningmas     => 3 | 0 0 1 |
+marthen         => 2 | 0 2 |
+vitalis         => 3 | 0 0 1 |
+undang          => 2 | 0 2 |
+wibisono        => 1 | 1 |
+merujuk         => 3 | 0 0 1 |
+bawaslu         => 2 | 0 1 |
+melalui         => 3 | 0 2 1 |
+sesuai          => 1 | 1 |
+dapil           => 2 | 0 1 |
+termasuk        => 2 | 1 1 |
+ketiganya       => 1 | 1 |
+menunggu        => 3 | 0 0 1 |
+mengingatkan    => 3 | 0 0 1 |
+miliar          => 3 | 1 0 1 |
+sebagai         => 3 | 1 5 3 |
+barat           => 3 | 4 0 7 |
+istana          => 1 | 1 |
+april           => 3 | 0 0 1 |
+apakah          => 3 | 0 0 1 |
+bali            => 2 | 0 1 |
+karena          => 3 | 1 1 2 |
+hibah           => 2 | 1 1 |
+majelis         => 3 | 0 0 2 |
+kasusnya        => 1 | 2 |
+menyarankan     => 3 | 0 0 1 |
+jadi            => 1 | 1 |
+aset            => 1 | 1 |
+terdata         => 3 | 0 0 1 |
+inilah          => 3 | 0 0 1 |
+tutup           => 2 | 0 1 |
+damianus        => 1 | 1 |
+dana            => 3 | 4 2 2 |
+energi          => 2 | 0 1 |
+putusan         => 3 | 0 0 2 |
+berikut         => 3 | 0 0 1 |
+roberth         => 3 | 0 0 1 |
+terhadap        => 2 | 1 3 |
+kronosnews      => 2 | 0 2 |
+penyidikan      => 3 | 0 0 1 |
+kepresidenan    => 2 | 1 1 |
+mengusulkan     => 2 | 0 1 |
+sedianya        => 3 | 0 0 1 |
+pangkalpinang   => 1 | 2 |
+samping         => 2 | 0 1 |
+harianto        => 3 | 0 0 1 |
+malam           => 1 | 1 |
+bupati          => 1 | 1 |
+icw             => 3 | 0 0 3 |
+tersangka       => 2 | 9 7 |
+diucapkannya    => 2 | 0 1 |
+–             => 3 | 0 0 1 |
+tercatat        => 3 | 0 0 1 |
+tidak           => 3 | 2 2 3 |
+usulan          => 2 | 0 3 |
+pemerasan       => 2 | 1 1 |
+hingga          => 3 | 0 0 1 |
+wonosobo        => 1 | 2 |
+pengadilan      => 3 | 0 0 3 |
+yumthe          => 3 | 0 0 1 |
+kejelasan       => 1 | 1 |
+penangguhan     => 1 | 2 |
+bersedia        => 1 | 1 |
+dari            => 3 | 12 5 12 |
+pembangunan     => 3 | 1 1 1 |
+tindakan        => 2 | 0 2 |
+minta           => 1 | 1 |
+kabinet         => 2 | 0 1 |
+terakhir        => 2 | 0 1 |
+pihak           => 2 | 0 1 |
+pada            => 3 | 1 1 3 |
+kasasi          => 3 | 0 0 2 |
+bersalah        => 3 | 0 0 1 |
+saja            => 3 | 1 0 1 |
+vertikal        => 3 | 0 0 1 |
+mineral         => 2 | 0 1 |
+sedang          => 2 | 0 1 |
+tegas           => 1 | 1 |
+watch           => 3 | 0 0 1 |
+belitung        => 1 | 1 |
+waktu           => 2 | 0 1 |
+persidangan     => 3 | 0 0 1 |
+dia             => 2 | 0 2 |
+menjalani       => 3 | 0 0 1 |
+memimpin        => 1 | 1 |
+kementerian     => 2 | 1 1 |
+rumah           => 3 | 0 0 1 |
+dikabulkannya   => 2 | 0 1 |
+asal            => 2 | 0 1 |
+itu             => 3 | 6 4 2 |
+undangan        => 2 | 0 1 |
+mendatang       => 3 | 0 0 1 |
+soal            => 2 | 0 1 |
+dirinya         => 3 | 0 0 1 |
+kasus           => 3 | 7 10 5 |
+disampaikan     => 2 | 1 3 |
+ditembuskan     => 2 | 0 1 |
+sosial          => 1 | 1 |
+namun           => 3 | 1 1 1 |
+bertujuan       => 2 | 0 1 |
+melilit         => 1 | 1 |
+agar            => 3 | 1 1 2 |
+ataukah         => 3 | 0 0 1 |
+diantaranya     => 2 | 0 1 |
+ketua           => 3 | 1 2 4 |
+kata            => 2 | 0 1 |
+jakarta         => 3 | 2 1 1 |
+oleh            => 3 | 3 1 2 |
+yenu            => 3 | 0 0 1 |
+karim           => 1 | 1 |
+anehnya         => 3 | 0 0 1 |
+fakta           => 3 | 0 0 1 |
+divonisi        => 3 | 0 0 1 |
+aldrin          => 1 | 1 |
+samawi          => 2 | 1 2 |
+kita            => 1 | 2 |
+badan           => 2 | 0 1 |
+persiba         => 2 | 1 1 |
+menteri         => 2 | 0 1 |
+penting         => 2 | 0 1 |
+berjamaah       => 1 | 1 |
+secara          => 1 | 2 |
+menduduki       => 2 | 0 1 |
+pdip            => 2 | 2 1 |
+juru            => 1 | 1 |
+jero            => 2 | 3 5 |
+tersangkut      => 3 | 0 1 2 |
+dinyatakan      => 2 | 0 1 |
+atas            => 2 | 0 3 |
+selaku          => 3 | 0 0 1 |
+manik           => 1 | 1 |
+susilo          => 1 | 1 |
+pria            => 2 | 0 1 |
+tanggal         => 3 | 0 0 1 |
+adapun          => 2 | 2 1 |
+jatuh           => 1 | 1 |
+dua             => 3 | 0 0 1 |
+mengirimkan     => 2 | 0 1 |
+sebuah          => 2 | 0 1 |
+ditunda         => 3 | 2 2 1 |
+sampai          => 1 | 1 |
+pemkab          => 1 | 1 |
+memproses       => 2 | 0 1 |
+kamil           => 1 | 1 |
+sby             => 1 | 3 |
+bangka          => 1 | 1 |
+dilantik        => 3 | 1 2 3 |
+terdiri         => 1 | 1 |
+telah           => 1 | 2 |
+berang          => 3 | 0 0 1 |
+politikus       => 3 | 0 0 1 |
+kami            => 2 | 0 1 |
+punya           => 2 | 0 1 |
+kantor          => 3 | 0 0 1 |
+umum            => 2 | 1 3 |
+wali            => 1 | 1 |
+adolf           => 3 | 0 0 1 |
+penyandang      => 1 | 1 |
+pasha           => 1 | 1 |
+provinsi        => 3 | 1 0 1 |
+lalu            => 2 | 0 1 |
+juga            => 2 | 3 2 |
+pernah          => 1 | 3 |
+sepak           => 1 | 1 |
+menyeret        => 1 | 1 |
+adalah          => 3 | 4 0 3 |
+pengawas        => 2 | 0 1 |
+terdakwa        => 3 | 0 6 4 |
+sekedar         => 2 | 0 1 |
+jimmi           => 1 | 4 |
+akhirnya        => 1 | 1 |
+prinsipnya      => 2 | 0 1 |
+idham           => 2 | 2 2 |
+tetap           => 3 | 0 0 1 |
+tukar           => 1 | 1 |
+membuat         => 3 | 0 0 1 |
+bambang         => 2 | 1 3 |
+menyerukan      => 3 | 0 0 1 |
+nafis           => 2 | 0 1 |
+peresmiannya    => 1 | 1 |
+rincian         => 1 | 1 |
+rp              => 3 | 1 0 1 |
+rendah          => 2 | 0 1 |
+guling          => 1 | 1 |
+di              => 3 | 4 3 3 |
+bisa            => 3 | 0 0 1 |
+puskesmas       => 2 | 1 1 |
+gumay           => 2 | 0 1 |
+kooperatif      => 2 | 0 1 |
+dulu            => 3 | 0 0 1 |
+herdian         => 2 | 2 2 |
+sebelumnya      => 2 | 1 1 |
+mengingat       => 3 | 0 0 1 |
+mempercepat     => 2 | 0 1 |
+sendiri         => 2 | 0 4 |
+acara           => 2 | 0 1 |
+untuk           => 3 | 7 4 1 |
+tempo           => 1 | 1 |
+surat           => 2 | 1 3 |
+mengatakan      => 3 | 1 1 1 |
+terkait         => 3 | 0 0 1 |
+masyarakat      => 3 | 0 1 1 |
+singkat         => 2 | 0 1 |
+lingkungan      => 1 | 1 |
+hanura          => 3 | 0 0 1 |
+saat            => 3 | 0 5 4 |
+melawan         => 2 | 0 2 |
+dugaan          => 3 | 2 4 1 |
+tutur           => 2 | 0 1 |
+negeri          => 1 | 2 |
+mendapatkan     => 1 | 1 |
+dan             => 3 | 10 7 7 |
+ini             => 3 | 2 3 6 |
+tangerang       => 1 | 1 |
+menyandang      => 2 | 3 1 |
+ditangani       => 1 | 4 |
+permintaan      => 2 | 3 1 |
+julian          => 1 | 3 |
+konsultasi      => 3 | 0 0 1 |
+biaya           => 3 | 0 0 1 |
+nama            => 3 | 4 0 3 |
+belanja         => 3 | 0 0 1 |
+diduga          => 3 | 0 1 1 |
+diketahui       => 2 | 0 1 |
+yudhoyono       => 1 | 1 |
+ditemui         => 2 | 0 1 |
+indonesia       => 3 | 0 0 1 |
+rekomendasi     => 3 | 0 0 1 |
+januari         => 3 | 0 0 1 |
+achmaddari      => 3 | 0 0 1 |
+urusan          => 3 | 0 0 1 |
+rupiah          => 2 | 0 1 |
+mereka          => 3 | 0 0 6 |
+tersebut        => 3 | 0 3 5 |
+miskinnya       => 2 | 0 1 |
+sementara       => 1 | 3 |
+terpilih        => 3 | 11 11 2 |
+penggelapan     => 3 | 0 0 1 |
+menyelewengkan  => 3 | 0 0 1 |
+september       => 3 | 0 0 2 |
+ibo             => 3 | 0 0 3 |
+gerindra        => 3 | 0 0 1 |
+kini            => 1 | 3 |
+idjie           => 1 | 2 |
+kpu             => 2 | 6 4 |
+direspon        => 1 | 2 |
+perjuangan      => 1 | 1 |
+setela          => 3 | 0 0 1 |
+akibat          => 2 | 0 1 |
+menurut         => 3 | 0 2 1 |
+agung           => 3 | 0 0 2 |
+dewan           => 2 | 1 4 |
+pkb             => 3 | 0 0 2 |
+dinilai         => 2 | 0 1 |
+sumpahnya       => 2 | 0 1 |
+memberi         => 1 | 1 |
+sepakbola       => 2 | 0 1 |
+pidana          => 3 | 0 0 2 |
+mempermudah     => 2 | 0 1 |
+diminta         => 2 | 1 1 |
+hakim           => 3 | 0 0 1 |
+sepakati        => 2 | 0 1 |
+bagi            => 3 | 0 1 2 |
+jika            => 2 | 0 2 |
+daerah          => 1 | 1 |
+triliun         => 2 | 0 1 |
+melianus        => 3 | 0 0 1 |
+wacik           => 2 | 1 3 |
+ade             => 3 | 0 0 1 |
+merusak         => 2 | 0 1 |
