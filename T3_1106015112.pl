@@ -1,23 +1,18 @@
 #!/usr/local/bin/perl
 
 my %index = ();
-open(TEST, ">test_output.txt");
-parse_documents();
+my %index_title = ();
 
-foreach $keyDoc (keys %index){
+open(TEST, ">test_output.txt");
+index_korpus();
+
+foreach $keyDoc (keys %index_title){
 	printf TEST "%-15s => ", $keyDoc;
-	print TEST scalar(@{$index{$keyDoc}}) . " | ";
-	foreach $t (@{$index{$keyDoc}}){
+	print TEST scalar(@{$index_title{$keyDoc}}) . " | ";
+	foreach $t (@{$index_title{$keyDoc}}){
 		if(not defined($t)){print TEST "0 ";}
 		else{print TEST "$t ";}
 	}
-	# for($i = 0; $i < scalar(@{$index{$keyDoc}}); $i++){
-		# $t = @{$index{$keyDoc}}[$i];
-		# foreach $t (@{$index{$keyDoc}}){
-			# if(not defined($t)){print TEST "0 ";}
-			# else{print TEST "$t ";}
-		# }
-	# }
 	print TEST "|\n";
 }
 
@@ -26,7 +21,7 @@ query("tersangkut korupsi");
 close(TEST);
 
 # @arg: corpus
-sub parse_documents
+sub index_korpus
 {
 	open(KORPUS, "korpus_test.txt");
 	
@@ -36,6 +31,7 @@ sub parse_documents
 	my $docNumber = 0;
 	
 	my %docTokens;
+	my %titleTokens;
 	
 	while($line = <KORPUS>){
 		if($line =~ /<DOK>/){$documentText = ""; %docTokens = ();}
@@ -44,6 +40,12 @@ sub parse_documents
 			%docTokens = tokenize($documentText);
 			update_index(\%docTokens, $docNumber);
 			$docNumber++;
+		}
+		
+		#Add title lines to document text to be computed
+		if($line =~ /<JUDUL>/){
+			%titleTokens = tokenize($line);
+			update_title_index(\%titleTokens, $docNumber);
 		}
 		
 		#Compile lines between <TEKS> tags
@@ -96,6 +98,25 @@ sub update_index
 		}
 		else {
 			@{$index{$keyDoc}}[$docNumber] = $docTokens{$keyDoc};
+		}
+	}
+}
+
+sub update_title_index
+{
+	my (%titleTokens) = %{$_[0]};
+	my ($docNumber) = $_[1];
+	
+	foreach $keyTitle (keys %titleTokens){
+		# for each term in document title, update title index
+		if(not exists ($index_title{$keyTitle})){
+			my @new_arr = ();
+			$index_title{$keyTitle} = \@new_arr;
+			
+			@{$index_title{$keyTitle}}[$docNumber] = $titleTokens{$keyTitle};
+		}
+		else {
+			@{$index_title{$keyTitle}}[$docNumber] = $titleTokens{$keyTitle};
 		}
 	}
 }
