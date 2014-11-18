@@ -2,7 +2,7 @@
 
 my %index = ();
 open(TEST, ">test_output.txt");
-$number = parse_documents();
+parse_documents();
 
 foreach $keyDoc (keys %index){
 	printf TEST "%-15s => ", $keyDoc;
@@ -22,7 +22,7 @@ foreach $keyDoc (keys %index){
 }
 
 query("tersangkut korupsi");
-print "$number\n";
+
 close(TEST);
 
 # @arg: corpus
@@ -55,7 +55,6 @@ sub parse_documents
 			$documentText .= $line;
 		}
 	}
-	return $docNumber;
 }
 
 # @arg: document
@@ -110,18 +109,12 @@ sub query
 	my @match = ();
 	
 	foreach $w (@query_words){
-		if(exists($index{$w})){
+		if(exists($index{$w}){
 			push(@match, $index{$w});
 		}
 	}
 	
-	foreach $arr (@match){
-		print "------\n";
-		@list = @{$arr};
-		for($i = 0; $i < scalar(@list); $i++){
-			print "$i: $list[$i]\n";
-		}
-	}
+	
 	
 	# @arr = @{$index{$query}};
 	# for($i = 0; $i < scalar(@arr); $i++){
