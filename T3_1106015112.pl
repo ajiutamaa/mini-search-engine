@@ -245,7 +245,7 @@ sub query
 	
 	@match_list = sort {@{$b}[1] cmp @{$a}[1]} @match_list;
 	
-	$counter = 0;
+	$counter = 1;
 	foreach $m (@match_list){
 		my @tuple = @{$m};
 		print $counter . "\t" . $docs_no{$tuple[0]} . "\t" . $docs_title{$tuple[0]} . "\tScore: $tuple[1]\n"; 
