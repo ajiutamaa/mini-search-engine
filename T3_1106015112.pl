@@ -3,6 +3,7 @@
 my %index = ();
 my %index_title = ();
 
+my %docs_no = ();
 my %docs_title = ();
 
 my @docs_number = ();
@@ -65,6 +66,10 @@ sub index_korpus
 		if($line =~ /<JUDUL>/){
 			$line =~ s/<JUDUL>//g;
 			$line =~ s/<\/JUDUL>//g;
+			$line =~ s/^\s+|\s+$|\t//g;
+			
+			$docs_title{$docNumber} = $line;
+			
 			%titleTokens = tokenize($line);
 			update_title_index(\%titleTokens, $docNumber);
 		}
@@ -73,7 +78,7 @@ sub index_korpus
 			$line =~ s/<NO>//g;
 			$line =~ s/<\/NO>//g;
 			$line =~ s/^\s+|\s+$|\t//g;
-			$docs_title{$docNumber} = $line;
+			$docs_no{$docNumber} = $line;
 		}
 		
 		#Compile lines between <TEKS> tags
@@ -213,14 +218,16 @@ sub query
 			$tuple[0] = $i;
 			$tuple[1] = $scoring;
 			push(@match_list, \@tuple);
-			#print "Dokumen $docs_title{$i}, tf_t: $tf_title, tf_doc: $tf_doc, score: $scoring\n";
+			#print "Dokumen $docs_no{$i}, tf_t: $tf_title, tf_doc: $tf_doc, score: $scoring\n";
 		}
 	}
 	
 	@match_list = sort {@{$b}[1] cmp @{$a}[1]} @match_list;
 	
+	$counter = 0;
 	foreach $m (@match_list){
 		my @tuple = @{$m};
-		print "Document " . $docs_title{$tuple[0]} . ", Score: $tuple[1]\n"; 
+		print $counter . "\t" . $docs_no{$tuple[0]} . "\t" . $docs_title{$tuple[0]} . "\tScore: $tuple[1]\n"; 
+		$counter++;
 	}
 }
