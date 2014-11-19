@@ -157,18 +157,32 @@ sub query
 	my ($query_string) = $_[0];
 	
 	my @query_words = split(/\s/, $query_string);
+	# contains vector of particular word tf in documents
 	my %document_match = ();
+	# contains vector of particular word tf in titles
 	my %title_match = ();
+	
+	my @match_list = ();
 	
 	foreach $w (@query_words){
 		if(exists($index{$w})){
 			my @hasil = @{$index{$w}};
-			print "query: \"$w\" DOCUMENT: ADA @hasil\n";
+			print "query: \"$w\" DOCUMENT: ADA";
+			foreach $h (@hasil){
+				if(defined($h)){print " $h ";}
+				else {print " 0 ";}
+			}
+			print "\n";
 			$document_match{$w} = $index{$w};
 		}
 		if(exists($index_title{$w})){
 			my @hasil = @{$index_title{$w}};
-			print "query: \"$w\" TITLE ADA @hasil\n";
+			print "query: \"$w\" TITLE ADA";
+			foreach $h (@hasil){
+				if(defined($h)){print " $h ";}
+				else {print " 0 ";}
+			}
+			print "\n";
 			$title_match{$w} = $index_title{$w};
 		}
 	}
@@ -176,20 +190,37 @@ sub query
 	for($i = 0; $i < $num_of_docs; $i++){
 		my $match = 0;
 		
+		my $tf_title = 0;
+		my $tf_doc = 0;
+		
 		foreach $w (keys %document_match){
 			$freq = @{$document_match{$w}}[$i];
 			if(defined($freq)){
 				$match = 1;
+				$tf_doc += $freq;
 			}
 		}
 		foreach $w (keys %title_match){
 			$freq = @{$title_match{$w}}[$i];
 			if(defined($freq)){
 				$match = 1;
+				$tf_title += $freq;
 			}
 		}
 		if($match){
-			print "Dokumen $docs_title{$i}\n";
+			$scoring = 0.6 * $tf_title + 0.4 * $tf_doc;
+			my @tuple = ();
+			$tuple[0] = $i;
+			$tuple[1] = $scoring;
+			push(@match_list, \@tuple);
+			#print "Dokumen $docs_title{$i}, tf_t: $tf_title, tf_doc: $tf_doc, score: $scoring\n";
 		}
+	}
+	
+	@match_list = sort {@{$b}[1] cmp @{$a}[1]} @match_list;
+	
+	foreach $m (@match_list){
+		my @tuple = @{$m};
+		print "Document " . $docs_title{$tuple[0]} . ", Score: $tuple[1]\n"; 
 	}
 }
