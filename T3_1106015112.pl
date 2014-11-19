@@ -1,5 +1,6 @@
 #!/usr/local/bin/perl
 require("module_stemming.pl");
+require("module_soundex.pl");
 
 my %index = ();
 my %index_title = ();
@@ -37,7 +38,7 @@ foreach $keyDoc (keys %index){					#
 }								#
 #----------------------------------------------------------------
 
-query("menteri korupsi");
+query("korpsi");
 
 close(TEST);
 
@@ -138,6 +139,7 @@ sub update_index
 	}
 }
 
+# @arg: documents title word tokens
 sub update_title_index
 {
 	my (%titleTokens) = %{$_[0]};
@@ -162,6 +164,8 @@ sub query
 {
 	my ($query_string) = $_[0];
 	
+	$query_string = lc($query_string);
+	
 	# expand query with stemmed words
 	$query_string = expand_query($query_string);
 	
@@ -174,25 +178,37 @@ sub query
 	my @match_list = ();
 	
 	foreach $w (@query_words){
-		if(exists($index{$w})){
-			my @hasil = @{$index{$w}};
-			print "query: \"$w\" DOCUMENT: ADA";
-			foreach $h (@hasil){
-				if(defined($h)){print " $h ";}
-				else {print " 0 ";}
+		my $distinct_word = $w;
+		if(not exists($index{$w}) and not exists($index_title{$distinct_word})){
+			$w_soundex = soundex($distinct_word);
+			foreach $keyword ((keys %index), (keys %index_title)){
+				$keyword_soundex = soundex($keyword);
+				if($keyword_soundex eq $w_soundex){
+					$distinct_word = $keyword;
+					next;
+				}
 			}
-			print "\n";
-			$document_match{$w} = $index{$w};
 		}
-		if(exists($index_title{$w})){
-			my @hasil = @{$index_title{$w}};
-			print "query: \"$w\" TITLE ADA";
+		
+		if(exists($index{$distinct_word})){
+			my @hasil = @{$index{$distinct_word}};
+			print "query: \"$distinct_word\" DOCUMENT: ADA";
 			foreach $h (@hasil){
 				if(defined($h)){print " $h ";}
 				else {print " 0 ";}
 			}
 			print "\n";
-			$title_match{$w} = $index_title{$w};
+			$document_match{$distinct_word} = $index{$distinct_word};
+		}
+		if(exists($index_title{$distinct_word})){
+			my @hasil = @{$index_title{$distinct_word}};
+			print "query: \"$distinct_word\" TITLE ADA";
+			foreach $h (@hasil){
+				if(defined($h)){print " $h ";}
+				else {print " 0 ";}
+			}
+			print "\n";
+			$title_match{$distinct_word} = $index_title{$distinct_word};
 		}
 	}
 	print "--------------\n";
@@ -236,6 +252,7 @@ sub query
 	}
 }
 
+# @arg: initial query
 sub expand_query
 {
 	my ($query_string) = $_[0];
