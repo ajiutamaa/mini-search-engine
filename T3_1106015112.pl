@@ -14,38 +14,39 @@ open(TEST, ">test_output_title.txt");
 open(TEST2, ">test_output_document.txt");
 
 my $num_of_docs = index_korpus();
-
+print "READY!\n";
 #--------------------------DEBUG---------------------------------
-print TEST "--------------TITLE INDEX----------------\n";	#
-foreach $keyDoc (keys %index_title){				#
-	printf TEST "%-15s => ", $keyDoc;			#
-	print TEST scalar(@{$index_title{$keyDoc}}) . " | ";	#
-	foreach $t (@{$index_title{$keyDoc}}){			#
-		if(not defined($t)){print TEST "0 ";}		#
-		else{print TEST "$t ";}				#
-	}							#
-	print TEST "|\n";					#
-}								#
-print TEST2 "--------------DOCUMENTS INDEX----------------\n";	#
-foreach $keyDoc (keys %index){					#
-	printf TEST2 "%-15s => ", $keyDoc;			#
-	print TEST2 scalar(@{$index{$keyDoc}}) . " | ";		#
-	foreach $t (@{$index{$keyDoc}}){			#
-		if(not defined($t)){print TEST2 "0 ";}		#
-		else{print TEST2 "$t ";}			#
-	}							#
-	print TEST2 "|\n";					#
-}								#
+# print TEST "--------------TITLE INDEX----------------\n";	#
+# foreach $keyDoc (keys %index_title){				#
+	# printf TEST "%-15s => ", $keyDoc;			#
+	# print TEST scalar(@{$index_title{$keyDoc}}) . " | ";	#
+	# foreach $t (@{$index_title{$keyDoc}}){			#
+		# if(not defined($t)){print TEST "0 ";}		#
+		# else{print TEST "$t ";}				#
+	# }							#
+	# print TEST "|\n";					#
+# }								#
+# print TEST2 "--------------DOCUMENTS INDEX----------------\n";	#
+# foreach $keyDoc (keys %index){					#
+	# printf TEST2 "%-15s => ", $keyDoc;			#
+	# print TEST2 scalar(@{$index{$keyDoc}}) . " | ";		#
+	# foreach $t (@{$index{$keyDoc}}){			#
+		# if(not defined($t)){print TEST2 "0 ";}		#
+		# else{print TEST2 "$t ";}			#
+	# }							#
+	# print TEST2 "|\n";					#
+# }								#
 #----------------------------------------------------------------
-
-query("korpsi");
-
 close(TEST);
+
+while($_ = <>){
+	query($_);
+}
 
 # @arg: corpus
 sub index_korpus
 {
-	open(KORPUS, "korpus_test.txt");
+	open(KORPUS, "korpus.txt");
 	
 	# Documents data
 	my $documentText;
@@ -192,26 +193,26 @@ sub query
 		
 		if(exists($index{$distinct_word})){
 			my @hasil = @{$index{$distinct_word}};
-			print "query: \"$distinct_word\" DOCUMENT: ADA";
-			foreach $h (@hasil){
-				if(defined($h)){print " $h ";}
-				else {print " 0 ";}
-			}
-			print "\n";
+			#print "query: \"$distinct_word\" DOCUMENT: ADA";
+			# foreach $h (@hasil){
+				# if(defined($h)){print " $h ";}
+				# else {print " 0 ";}
+			# }
+			# print "\n";
 			$document_match{$distinct_word} = $index{$distinct_word};
 		}
 		if(exists($index_title{$distinct_word})){
 			my @hasil = @{$index_title{$distinct_word}};
-			print "query: \"$distinct_word\" TITLE ADA";
-			foreach $h (@hasil){
-				if(defined($h)){print " $h ";}
-				else {print " 0 ";}
-			}
-			print "\n";
+			#print "query: \"$distinct_word\" TITLE ADA";
+			# foreach $h (@hasil){
+				# if(defined($h)){print " $h ";}
+				# else {print " 0 ";}
+			# }
+			# print "\n";
 			$title_match{$distinct_word} = $index_title{$distinct_word};
 		}
 	}
-	print "--------------\n";
+	print "------------------------------HASIL--------------------------------------------\n";
 	for($i = 0; $i < $num_of_docs; $i++){
 		my $match = 0;
 		
@@ -250,6 +251,7 @@ sub query
 		print $counter . "\t" . $docs_no{$tuple[0]} . "\t" . $docs_title{$tuple[0]} . "\tScore: $tuple[1]\n"; 
 		$counter++;
 	}
+	print "-------------------------------------------------------------------------------\n";
 }
 
 # @arg: initial query
