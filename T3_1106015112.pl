@@ -161,6 +161,8 @@ sub query
 {
 	my ($query_string) = $_[0];
 	
+	expand_query($query_string);
+	
 	my @query_words = split(/\s/, $query_string);
 	# contains vector of particular word tf in documents
 	my %document_match = ();
@@ -230,4 +232,26 @@ sub query
 		print $counter . "\t" . $docs_no{$tuple[0]} . "\t" . $docs_title{$tuple[0]} . "\tScore: $tuple[1]\n"; 
 		$counter++;
 	}
+}
+
+sub expand_query
+{
+	my ($query_string) = $_[0];
+	
+	@words = split(/\s/, $query_string);
+	@expanded = ();
+	
+	foreach $w (@words){
+		$stemmed = stem($w);
+		push(@expanded, $stemmed);
+		#push(@words, $stemmed);
+	}
+	
+	print "@words @expanded\n";
+}
+
+sub stem
+{
+	my ($test) = $_[0];
+	return "expanded-".$test;
 }
