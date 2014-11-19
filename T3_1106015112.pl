@@ -1,4 +1,5 @@
 #!/usr/local/bin/perl
+require("module_stemming.pl");
 
 my %index = ();
 my %index_title = ();
@@ -161,7 +162,8 @@ sub query
 {
 	my ($query_string) = $_[0];
 	
-	expand_query($query_string);
+	# expand query with stemmed words
+	$query_string = expand_query($query_string);
 	
 	my @query_words = split(/\s/, $query_string);
 	# contains vector of particular word tf in documents
@@ -246,12 +248,7 @@ sub expand_query
 		push(@expanded, $stemmed);
 		#push(@words, $stemmed);
 	}
-	
-	print "@words @expanded\n";
-}
 
-sub stem
-{
-	my ($test) = $_[0];
-	return "expanded-".$test;
+	print join(" ", (@words, @expanded)) . "\n";
+	return join(" ", (@words, @expanded));
 }

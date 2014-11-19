@@ -110,3 +110,5 @@ sub stem {
 	
 	return $stemmed;
 }
+
+1;
