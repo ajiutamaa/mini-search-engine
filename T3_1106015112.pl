@@ -3,6 +3,8 @@
 my %index = ();
 my %index_title = ();
 
+my %docs_title = ();
+
 my @docs_number = ();
 
 open(TEST, ">test_output_title.txt");
@@ -33,7 +35,7 @@ foreach $keyDoc (keys %index){					#
 }								#
 #----------------------------------------------------------------
 
-query("tersangkut korupsi");
+query("menteri korupsi");
 
 close(TEST);
 
@@ -61,8 +63,17 @@ sub index_korpus
 		
 		#Add title lines to document text to be computed
 		if($line =~ /<JUDUL>/){
+			$line =~ s/<JUDUL>//g;
+			$line =~ s/<\/JUDUL>//g;
 			%titleTokens = tokenize($line);
 			update_title_index(\%titleTokens, $docNumber);
+		}
+		
+		if($line =~ /<NO>/){
+			$line =~ s/<NO>//g;
+			$line =~ s/<\/NO>//g;
+			$line =~ s/^\s+|\s+$|\t//g;
+			$docs_title{$docNumber} = $line;
 		}
 		
 		#Compile lines between <TEKS> tags
@@ -152,18 +163,17 @@ sub query
 	foreach $w (@query_words){
 		if(exists($index{$w})){
 			my @hasil = @{$index{$w}};
-			print "query: $w DOCUMENT: ADA @hasil\n";
+			print "query: \"$w\" DOCUMENT: ADA @hasil\n";
 			$document_match{$w} = $index{$w};
 		}
 		if(exists($index_title{$w})){
 			my @hasil = @{$index_title{$w}};
-			print "query: $w TITLE ADA @hasil\n";
+			print "query: \"$w\" TITLE ADA @hasil\n";
 			$title_match{$w} = $index_title{$w};
 		}
 	}
-	
+	print "--------------\n";
 	for($i = 0; $i < $num_of_docs; $i++){
-		print "Dokumen $i: ";
 		my $match = 0;
 		
 		foreach $w (keys %document_match){
@@ -178,11 +188,8 @@ sub query
 				$match = 1;
 			}
 		}
-		print "$match\n";
+		if($match){
+			print "Dokumen $docs_title{$i}\n";
+		}
 	}
-	
-	# @arr = @{$index{$query}};
-	# for($i = 0; $i < scalar(@arr); $i++){
-		# print "$i: $arr[$i]\n";
-	# }
 }
